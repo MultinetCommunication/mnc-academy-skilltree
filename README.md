@@ -2,6 +2,12 @@
 
 Interaktive Ausbildungslandschaft der Multinet Communication AG.
 
+## Website
+
+[Academy Skilltree öffnen](https://multinetcommunication.github.io/mnc-academy-skilltree/)
+
+Die Website wird bei Änderungen auf `main` automatisch über GitHub Pages aktualisiert.
+
 ## Ziel
 
 Das Projekt bildet die internen Ausbildungswege als professionellen, RPG-inspirierten Skilltree ab. Es verbindet Fachausbildungen, eigenständige SGA- und Elektromodule, Spezialisierungen, Spezialrollen und eine separate Führungsleiter.
@@ -23,11 +29,13 @@ Die öffentliche Darstellung enthält keine personenbezogenen Mitarbeitendendate
 
 Konzept- und Prototypphase. Der Netzbau diente als erster Belastungstest; die Datenstruktur wird nun auf die gesamte Academy erweitert.
 
-## Geplante Struktur
+## Struktur
 
 ```text
 data/           Strukturierte Ausbildungsdaten
-src/            Anwendung und Visualisierung
+index.html      Öffentliche Website
+styles.css      Visuelles System
+app.js          Interaktion und Datenlogik
 docs/           Konzept- und Entscheidungsdokumentation
 ```
 
