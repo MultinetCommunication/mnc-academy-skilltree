@@ -150,34 +150,50 @@ function renderSkilltree(trackId) {
     svg.append(path);
   });
 
-  const template = document.getElementById("node-template");
   Object.values(grouped).flat().forEach(({ module, assignment }) => {
     const position = positions.get(module.id);
-    const fragment = template.content.cloneNode(true);
-    const group = fragment.querySelector(".skill-node");
+    const group = svgElement("g", {
+      class: "skill-node",
+      role: "button",
+      tabindex: "0",
+      transform: `translate(${position.x} ${position.y})`,
+      "data-module": module.id,
+      "aria-label": module.title
+    });
     const type = moduleType(module, assignment);
     const state = decisionGroup(assignment);
     group.classList.add(type, state === "review" ? "review" : "source");
-    group.setAttribute("transform", `translate(${position.x} ${position.y})`);
-    group.dataset.module = module.id;
-    group.setAttribute("aria-label", module.title);
-    fragment.querySelector(".node-halo").setAttribute("r", position.level === "L0" ? "57" : "49");
-    fragment.querySelector(".node-core").setAttribute("r", position.level === "L0" ? "49" : "42");
-    const title = fragment.querySelector(".node-title");
+    group.append(svgElement("circle", {
+      class: "node-halo",
+      r: position.level === "L0" ? "57" : "49"
+    }));
+    group.append(svgElement("circle", {
+      class: "node-core",
+      r: position.level === "L0" ? "49" : "42"
+    }));
+    const title = svgElement("text", {
+      class: "node-title",
+      "text-anchor": "middle"
+    });
     const lines = wrapTitle(module.title, position.level === "L0" ? 19 : 16);
     lines.forEach((line, index) => {
       const tspan = svgElement("tspan", { x: "0", dy: index === 0 ? `${-((lines.length - 1) * 8)}` : "17" });
       tspan.textContent = line;
       title.append(tspan);
     });
-    const code = fragment.querySelector(".node-code");
+    group.append(title);
+    const code = svgElement("text", {
+      class: "node-code",
+      "text-anchor": "middle"
+    });
     code.setAttribute("y", `${29 + Math.max(0, lines.length - 2) * 4}`);
     code.textContent = [effectiveLevel(module, assignment), assignment?.requirement, assignment?.deadline].filter(Boolean).join(" · ");
+    group.append(code);
     group.addEventListener("click", () => showModule(module, assignment, group));
     group.addEventListener("keydown", event => {
       if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showModule(module, assignment, group); }
     });
-    svg.append(fragment);
+    svg.append(group);
   });
 
   const preferred = grouped.L1[0] || grouped.L0[0] || grouped.L2[0] || grouped.L3[0];
