@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.1.0",
+  "schemaVersion": "0.1.1",
   "publicationScope": "General training modules and target groups only. No employee data or internal development metadata.",
   "modules": [
     {
@@ -743,6 +743,59 @@
         "Engineering/Akquise"
       ],
       "targetGroupSource": "Akquise Backoffice"
+    },
+    {
+      "id": "DRAFT-SPEC-KABELAUSZUG",
+      "title": "Spezialausbildung Kabelauszug",
+      "durationHours": null,
+      "sourceLevel": null,
+      "category": "Integrierte Fach-/SGA-Spezialausbildung",
+      "subjectAreas": [
+        "Netzbau",
+        "SGA"
+      ],
+      "targetGroupSource": "Geplanter Einsatz im Kabelauszug",
+      "draft": true
+    },
+    {
+      "id": "DRAFT-SGA-ELEKTROVERTEILNETZ",
+      "title": "Arbeiten im Elektroverteilnetz",
+      "durationHours": null,
+      "sourceLevel": null,
+      "category": "SGA / Elektro",
+      "subjectAreas": [
+        "Netzbau",
+        "Technik",
+        "SGA",
+        "Elektro"
+      ],
+      "targetGroupSource": "Funktionen mit geplantem Einsatz im Elektroverteilnetz",
+      "draft": true
+    },
+    {
+      "id": "DRAFT-ROLE-PRAXISBILDNER",
+      "title": "Praxisbildner für Lernende",
+      "durationHours": null,
+      "sourceLevel": null,
+      "category": "Spezialrolle",
+      "subjectAreas": [
+        "Funktionsübergreifend"
+      ],
+      "targetGroupSource": "Freiwillige Übernahme der Spezialrolle Praxisbildner",
+      "draft": true
+    },
+    {
+      "id": "DRAFT-ROLE-GEFAHRSTOFFE",
+      "title": "Gefahrstoffbeauftragte/r",
+      "durationHours": null,
+      "sourceLevel": null,
+      "category": "Spezialrolle SGA",
+      "subjectAreas": [
+        "Funktionsübergreifend",
+        "SGA"
+      ],
+      "targetGroupSource": "Freiwillige Übernahme der Spezialrolle Gefahrstoffe",
+      "draft": true
     }
   ]
 }
