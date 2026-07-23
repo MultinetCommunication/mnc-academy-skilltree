@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "0.1.0",
+  "tracks": [
+    {
+      "id": "common",
+      "title": "Gemeinsame Grundausbildung",
+      "type": "foundation",
+      "levels": ["L0"]
+    },
+    {
+      "id": "technik",
+      "title": "Technik",
+      "type": "function",
+      "levels": ["L1", "L2", "L3"],
+      "status": "draft"
+    },
+    {
+      "id": "netzbau",
+      "title": "Netzbau",
+      "type": "function",
+      "levels": ["L1", "L2", "L3"],
+      "status": "pilot"
+    },
+    {
+      "id": "engineering-akquise",
+      "title": "Engineering und Akquise",
+      "type": "function",
+      "levels": ["L1", "L2", "L3"],
+      "status": "draft"
+    },
+    {
+      "id": "freileitung",
+      "title": "Freileitung",
+      "type": "specialized-function-base",
+      "parentTrackId": "netzbau",
+      "levels": ["L1"],
+      "status": "draft"
+    },
+    {
+      "id": "kabelauszug",
+      "title": "Kabelauszug",
+      "type": "specialization",
+      "parentTrackId": "netzbau",
+      "levels": ["L2"],
+      "status": "draft"
+    },
+    {
+      "id": "elektroverteilnetz",
+      "title": "Arbeiten im Elektroverteilnetz",
+      "type": "specialization",
+      "parentTrackId": "netzbau",
+      "levels": ["L2"],
+      "status": "draft"
+    },
+    {
+      "id": "leadership",
+      "title": "Führung",
+      "type": "cross-functional-leadership",
+      "levels": [],
+      "status": "concept"
+    },
+    {
+      "id": "special-roles",
+      "title": "Spezialrollen",
+      "type": "cross-functional-role",
+      "levels": [],
+      "status": "concept"
+    }
+  ]
+}
