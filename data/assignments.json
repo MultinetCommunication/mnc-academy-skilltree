@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "0.1.0",
+  "scope": "First canonical assignments for the common foundation, Netzbau pilot, leadership and special roles.",
+  "assignments": [
+    {
+      "id": "a-common-hr001",
+      "moduleId": "HR-001",
+      "trackId": "common",
+      "level": "L0",
+      "requirement": "P",
+      "deadline": "A",
+      "restriction": "E0",
+      "owners": ["ACADEMY"],
+      "decisionStatus": "confirmed"
+    },
+    {
+      "id": "a-common-sga001",
+      "moduleId": "SGA-001",
+      "trackId": "common",
+      "level": "L0",
+      "requirement": "P",
+      "deadline": "A",
+      "restriction": null,
+      "owners": ["SGA"],
+      "decisionStatus": "confirmed",
+      "reviewNote": "Einsatzbeschränkung noch festzulegen."
+    },
+    {
+      "id": "a-netzbau-mod002",
+      "moduleId": "MOD-002",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": null,
+      "owners": ["EXTERN", "SGA"],
+      "decisionStatus": "confirmed-level",
+      "reviewNote": "Frist und Einsatzbeschränkung noch festzulegen."
+    },
+    {
+      "id": "a-netzbau-mod004",
+      "moduleId": "MOD-004",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": null,
+      "owners": ["FACH", "SGA"],
+      "decisionStatus": "confirmed-level",
+      "reviewNote": "Fahrzeuge und Anhänger wurden ausdrücklich Level 1 zugeordnet."
+    },
+    {
+      "id": "a-netzbau-sga010",
+      "moduleId": "SGA-010",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": null,
+      "owners": ["SGA"],
+      "decisionStatus": "confirmed-level",
+      "reviewNote": "Zu prüfen ist, ob ein Modul mit zwei Lernblöcken oder zwei eigenständige Module geführt werden."
+    },
+    {
+      "id": "a-netzbau-mod016",
+      "moduleId": "MOD-016",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": "E1",
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-basis"
+    },
+    {
+      "id": "a-netzbau-mod017",
+      "moduleId": "MOD-017",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": "E1",
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-basis"
+    },
+    {
+      "id": "a-netzbau-mod018",
+      "moduleId": "MOD-018",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": "E1",
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-basis"
+    },
+    {
+      "id": "a-netzbau-mod019",
+      "moduleId": "MOD-019",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": "E1",
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-basis"
+    },
+    {
+      "id": "a-netzbau-mod020",
+      "moduleId": "MOD-020",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": "E1",
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-basis",
+      "exceptions": [
+        {
+          "trackId": "freileitung",
+          "requirement": "W",
+          "note": "Für Freileiter nicht obligatorisch."
+        }
+      ]
+    },
+    {
+      "id": "a-netzbau-mod021",
+      "moduleId": "MOD-021",
+      "trackId": "netzbau",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": "E1",
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-basis"
+    },
+    {
+      "id": "a-freileitung-mod021",
+      "moduleId": "MOD-021",
+      "trackId": "freileitung",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": null,
+      "restriction": "E1",
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-basis",
+      "decisionNote": "Das gemeinsame Modul Feeder und Drop bleibt vollständig in der Freileiterausbildung."
+    },
+    {
+      "id": "a-freileitung-mod022",
+      "moduleId": "MOD-022",
+      "trackId": "freileitung",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": "D",
+      "restriction": null,
+      "owners": ["FACH"],
+      "decisionStatus": "confirmed-level"
+    },
+    {
+      "id": "a-freileitung-mod012",
+      "moduleId": "MOD-012",
+      "trackId": "freileitung",
+      "level": "L1",
+      "requirement": "P",
+      "deadline": "D",
+      "restriction": null,
+      "owners": ["SGA"],
+      "decisionStatus": "confirmed-level"
+    },
+    {
+      "id": "a-netzbau-cable",
+      "moduleId": "DRAFT-SPEC-KABELAUSZUG",
+      "trackId": "kabelauszug",
+      "level": "L2",
+      "requirement": "BP",
+      "deadline": "D",
+      "restriction": "E2",
+      "owners": ["SGA", "FACH"],
+      "decisionStatus": "confirmed-concept",
+      "restrictionDetail": {
+        "allowedBeforeTraining": ["Vorbereitungsarbeiten am Tag ausserhalb der maschinellen Kabelzugsarbeit"],
+        "prohibitedBeforeTraining": ["Nachteinsätze", "Maschinelle Kabelzugsarbeiten"],
+        "permanentSafetyRule": "Der Gefahrenbereich darf bei laufender Maschine nie betreten werden."
+      }
+    },
+    {
+      "id": "a-netzbau-energy",
+      "moduleId": "DRAFT-SGA-ELEKTROVERTEILNETZ",
+      "trackId": "elektroverteilnetz",
+      "level": "L2",
+      "requirement": "BP",
+      "deadline": "D",
+      "restriction": "E3",
+      "owners": ["SGA", "ELEKTRO"],
+      "decisionStatus": "confirmed-concept",
+      "restrictionDetail": {
+        "prohibitedBeforeTraining": ["Jeder Einsatz im entsprechenden Arbeitsbereich, auch unter Anleitung"]
+      },
+      "customerTraining": "Separate kundenspezifische Ausbildung oder Freigabe kann zusätzlich erforderlich sein."
+    },
+    {
+      "id": "a-netzbau-mod015",
+      "moduleId": "MOD-015",
+      "trackId": "netzbau",
+      "level": "L2",
+      "requirement": "BP",
+      "deadline": "D",
+      "restriction": null,
+      "owners": ["FACH", "SGA"],
+      "decisionStatus": "concept",
+      "reviewNote": "Als einsatzbezogene Maschinenqualifikation zu prüfen."
+    },
+    {
+      "id": "a-netzbau-mod023",
+      "moduleId": "MOD-023",
+      "trackId": "netzbau",
+      "level": "L2",
+      "requirement": null,
+      "deadline": null,
+      "restriction": null,
+      "owners": ["FACH"],
+      "decisionStatus": "fachgremium-review"
+    },
+    {
+      "id": "a-netzbau-mod024",
+      "moduleId": "MOD-024",
+      "trackId": "netzbau",
+      "level": "L2",
+      "requirement": null,
+      "deadline": null,
+      "restriction": null,
+      "owners": ["FACH"],
+      "decisionStatus": "fachgremium-review"
+    },
+    {
+      "id": "a-netzbau-mod025",
+      "moduleId": "MOD-025",
+      "trackId": "netzbau",
+      "level": "L2",
+      "requirement": null,
+      "deadline": null,
+      "restriction": null,
+      "owners": ["FACH"],
+      "decisionStatus": "fachgremium-review"
+    },
+    {
+      "id": "a-netzbau-mod026",
+      "moduleId": "MOD-026",
+      "trackId": "netzbau",
+      "level": "L3",
+      "requirement": null,
+      "deadline": null,
+      "restriction": null,
+      "owners": ["FACH"],
+      "decisionStatus": "fachgremium-review"
+    },
+    {
+      "id": "a-netzbau-mod027",
+      "moduleId": "MOD-027",
+      "trackId": "netzbau",
+      "level": "L3",
+      "requirement": null,
+      "deadline": null,
+      "restriction": null,
+      "owners": ["FACH"],
+      "decisionStatus": "fachgremium-review"
+    },
+    {
+      "id": "a-netzbau-mod028",
+      "moduleId": "MOD-028",
+      "trackId": "netzbau",
+      "level": "L3",
+      "requirement": null,
+      "deadline": null,
+      "restriction": null,
+      "owners": ["FACH"],
+      "decisionStatus": "fachgremium-review"
+    },
+    {
+      "id": "a-leadership-hr002",
+      "moduleId": "HR-002",
+      "trackId": "leadership",
+      "level": null,
+      "requirement": "P",
+      "deadline": "D",
+      "restriction": null,
+      "owners": ["HR", "EXTERN"],
+      "decisionStatus": "confirmed-track"
+    },
+    {
+      "id": "a-leadership-mod014",
+      "moduleId": "MOD-014",
+      "trackId": "leadership",
+      "level": null,
+      "requirement": "P",
+      "deadline": "D",
+      "restriction": null,
+      "owners": ["SGA"],
+      "decisionStatus": "confirmed-track"
+    },
+    {
+      "id": "a-role-practice",
+      "moduleId": "DRAFT-ROLE-PRAXISBILDNER",
+      "trackId": "special-roles",
+      "level": null,
+      "requirement": "R",
+      "deadline": "D",
+      "restriction": null,
+      "owners": ["HR", "FACH"],
+      "decisionStatus": "confirmed-concept"
+    },
+    {
+      "id": "a-role-hazmat",
+      "moduleId": "DRAFT-ROLE-GEFAHRSTOFFE",
+      "trackId": "special-roles",
+      "level": null,
+      "requirement": "R",
+      "deadline": "D",
+      "restriction": null,
+      "owners": ["SGA"],
+      "decisionStatus": "confirmed-concept"
+    }
+  ]
+}
