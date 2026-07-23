@@ -120,6 +120,11 @@ h1 { margin: 0; max-width: 760px; font-size: clamp(3rem, 7vw, 6.4rem); line-heig
 .skill-ring.glow { stroke: rgba(76, 215, 208, .24); stroke-width: 8; filter: blur(5px); }
 .skill-link { fill: none; stroke: rgba(154, 170, 189, .34); stroke-width: 2; vector-effect: non-scaling-stroke; }
 .skill-link.draft { stroke-dasharray: 7 7; }
+.unlock-link {
+  fill: none; stroke: rgba(231, 182, 109, .42); stroke-width: 2.5;
+  stroke-dasharray: 5 7; vector-effect: non-scaling-stroke;
+}
+.unlock-link.active { stroke: var(--amber); stroke-width: 4; filter: drop-shadow(0 0 7px rgba(231, 182, 109, .75)); }
 .skill-node { cursor: pointer; outline: none; }
 .skill-node .node-halo { fill: none; stroke: rgba(154, 170, 189, .32); stroke-width: 2; stroke-dasharray: 6 5; }
 .skill-node .node-core { fill: #172233; stroke: var(--blue); stroke-width: 2; }
@@ -127,8 +132,19 @@ h1 { margin: 0; max-width: 760px; font-size: clamp(3rem, 7vw, 6.4rem); line-heig
 .skill-node.special .node-core { fill: #271f3d; stroke: var(--violet); }
 .skill-node.review .node-halo { stroke: var(--amber); }
 .skill-node:hover .node-halo, .skill-node:focus-visible .node-halo, .skill-node.selected .node-halo { stroke: var(--cyan); stroke-width: 4; filter: drop-shadow(0 0 8px var(--cyan)); }
+.skill-node.prerequisite .node-halo { stroke: var(--amber); stroke-width: 4; filter: drop-shadow(0 0 8px rgba(231, 182, 109, .8)); }
 .node-title { fill: var(--text); font-size: 15px; font-weight: 600; pointer-events: none; }
 .node-code { fill: var(--muted); font-size: 12px; pointer-events: none; }
+.ability-node { cursor: pointer; outline: none; }
+.ability-halo { fill: rgba(231, 182, 109, .05); stroke: rgba(231, 182, 109, .5); stroke-width: 2; stroke-dasharray: 4 6; }
+.ability-fruit { fill: #30261c; stroke: var(--amber); stroke-width: 3; filter: drop-shadow(0 0 9px rgba(231, 182, 109, .28)); }
+.ability-node.review .ability-fruit { stroke-dasharray: 6 5; }
+.ability-node:hover .ability-halo, .ability-node:focus-visible .ability-halo, .ability-node.selected .ability-halo {
+  stroke: #ffe2a7; stroke-width: 5; filter: drop-shadow(0 0 12px var(--amber));
+}
+.ability-lock { fill: var(--amber); font-size: 15px; pointer-events: none; }
+.ability-title { fill: var(--text); font-size: 12px; font-weight: 700; pointer-events: none; }
+.ability-code { fill: var(--amber); font-size: 8px; font-weight: 700; letter-spacing: .12em; pointer-events: none; }
 .visual-legend { display: flex; flex-wrap: wrap; gap: .8rem 1.2rem; margin-top: .9rem; color: var(--muted); font-size: .85rem; }
 .visual-legend span { display: inline-flex; align-items: center; gap: .4rem; }
 .legend-dot { width: .8rem; height: .8rem; border-radius: 50%; background: var(--blue); }
@@ -136,6 +152,10 @@ h1 { margin: 0; max-width: 760px; font-size: clamp(3rem, 7vw, 6.4rem); line-heig
 .legend-dot.special { background: var(--violet); }
 .legend-line { width: 1.2rem; border-top: 2px solid var(--green); }
 .legend-line.draft { border-top-color: var(--amber); border-top-style: dashed; }
+.legend-fruit {
+  width: .9rem; height: .9rem; transform: rotate(45deg);
+  border: 2px solid var(--amber); border-radius: 35% 55% 45% 55%; background: #30261c;
+}
 
 .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: .8rem; }
 .filters label { display: grid; gap: .35rem; color: var(--muted); font-size: .8rem; }
