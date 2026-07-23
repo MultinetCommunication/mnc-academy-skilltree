@@ -16,7 +16,7 @@ const TRACK_ORDER = ["netzbau", "technik", "engineering-akquise", "leadership", 
 const SOURCE_LEVEL = { "Level 1": "L1", "Level 1 (ext)": "L0", "Level 1 / Level 2": "L1", "Level 2": "L2", "Level 3": "L3", "Level3": "L3" };
 
 async function loadData() {
-  const files = ["modules", "tracks", "assignments", "connections", "taxonomy"];
+  const files = ["modules", "tracks", "assignments", "connections", "taxonomy", "abilities"];
   const responses = await Promise.all(files.map(name => fetch(`data/${name}.json`)));
   responses.forEach((response, index) => {
     if (!response.ok) throw new Error(`${files[index]}.json konnte nicht geladen werden.`);
@@ -150,6 +150,20 @@ function renderSkilltree(trackId) {
     svg.append(path);
   });
 
+  const abilities = DATA.abilities.abilities.filter(ability => ability.trackIds.includes(trackId));
+  abilities.forEach(ability => {
+    ability.requiredModuleIds.forEach(moduleId => {
+      const from = positions.get(moduleId);
+      if (!from) return;
+      svg.append(svgElement("path", {
+        d: `M${from.x},${from.y} Q${(from.x + ability.position.x) / 2},${center.y} ${ability.position.x},${ability.position.y}`,
+        class: "unlock-link",
+        "data-unlock-link": ability.id,
+        "data-prerequisite": moduleId
+      }));
+    });
+  });
+
   Object.values(grouped).flat().forEach(({ module, assignment }) => {
     const position = positions.get(module.id);
     const group = svgElement("g", {
@@ -196,6 +210,40 @@ function renderSkilltree(trackId) {
     svg.append(group);
   });
 
+  abilities.forEach(ability => {
+    const group = svgElement("g", {
+      class: `ability-node ${/confirmed/.test(ability.status) ? "confirmed" : "review"}`,
+      role: "button",
+      tabindex: "0",
+      transform: `translate(${ability.position.x} ${ability.position.y})`,
+      "data-ability": ability.id,
+      "aria-label": `Einsatzfreigabe: ${ability.title}`
+    });
+    group.append(svgElement("circle", { class: "ability-halo", r: "66" }));
+    group.append(svgElement("path", {
+      class: "ability-fruit",
+      d: "M0,-50 C35,-50 55,-20 48,13 C42,42 17,56 0,61 C-17,56 -42,42 -48,13 C-55,-20 -35,-50 0,-50 Z"
+    }));
+    const lock = svgElement("text", { class: "ability-lock", "text-anchor": "middle", y: "-21" });
+    lock.textContent = "◆";
+    group.append(lock);
+    const title = svgElement("text", { class: "ability-title", "text-anchor": "middle" });
+    wrapTitle(ability.title, 18).forEach((line, index, lines) => {
+      const tspan = svgElement("tspan", { x: "0", dy: index === 0 ? `${-((lines.length - 1) * 7) + 4}` : "15" });
+      tspan.textContent = line;
+      title.append(tspan);
+    });
+    group.append(title);
+    const label = svgElement("text", { class: "ability-code", "text-anchor": "middle", y: "45" });
+    label.textContent = "EINSATZFREIGABE";
+    group.append(label);
+    group.addEventListener("click", () => showAbility(ability, group));
+    group.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showAbility(ability, group); }
+    });
+    svg.append(group);
+  });
+
   const preferred = grouped.L1[0] || grouped.L0[0] || grouped.L2[0] || grouped.L3[0];
   if (preferred) {
     const group = svg.querySelector(`[data-module="${CSS.escape(preferred.module.id)}"]`);
@@ -203,12 +251,41 @@ function renderSkilltree(trackId) {
   }
 }
 
+function showAbility(ability, group) {
+  document.querySelectorAll(".skill-node.selected, .skill-node.prerequisite, .ability-node.selected")
+    .forEach(node => node.classList.remove("selected", "prerequisite"));
+  document.querySelectorAll(".unlock-link.active").forEach(link => link.classList.remove("active"));
+  group?.classList.add("selected");
+  ability.requiredModuleIds.forEach(moduleId => {
+    document.querySelector(`#skilltree [data-module="${CSS.escape(moduleId)}"]`)?.classList.add("prerequisite");
+  });
+  document.querySelectorAll(`[data-unlock-link="${CSS.escape(ability.id)}"]`).forEach(link => link.classList.add("active"));
+
+  const moduleNames = ability.requiredModuleIds.map(id => DATA.modules.modules.find(module => module.id === id)?.title || id);
+  const notes = [
+    `Benötigte Module: ${moduleNames.join(" → ")}.`,
+    ability.permanentRule,
+    ability.externalGate
+  ].filter(Boolean);
+  document.getElementById("detail-id").textContent = "EINSATZFREIGABE";
+  document.getElementById("detail-name").textContent = ability.title;
+  document.getElementById("detail-description").textContent = notes.join(" ");
+  document.getElementById("detail-level").textContent = "Endknoten / Spezialfähigkeit";
+  document.getElementById("detail-requirement").textContent = `${ability.requiredModuleIds.length} Voraussetzung${ability.requiredModuleIds.length === 1 ? "" : "en"}`;
+  document.getElementById("detail-deadline").textContent = "Vor Aufnahme der gesperrten Tätigkeit";
+  document.getElementById("detail-restriction").textContent = ability.restrictionBefore;
+  document.getElementById("detail-owner").textContent = ability.owners.map(owner => DATA.taxonomy.owners[owner] || owner).join(", ");
+  document.getElementById("detail-status").textContent = /confirmed/.test(ability.status) ? "Konzept bestätigt" : "Konzept / fachlich zu prüfen";
+}
+
 function taxonomyLabel(group, code, fallback = "Nicht festgelegt") {
   return code ? (DATA.taxonomy[group]?.[code] || code) : fallback;
 }
 
 function showModule(module, assignment, group) {
-  document.querySelectorAll(".skill-node.selected").forEach(node => node.classList.remove("selected"));
+  document.querySelectorAll(".skill-node.selected, .skill-node.prerequisite, .ability-node.selected")
+    .forEach(node => node.classList.remove("selected", "prerequisite"));
+  document.querySelectorAll(".unlock-link.active").forEach(link => link.classList.remove("active"));
   group?.classList.add("selected");
   const status = decisionGroup(assignment);
   document.getElementById("detail-id").textContent = module.id;
