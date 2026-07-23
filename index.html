@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interaktive Ausbildungslandschaft der MNC Academy">
+  <title>MNC Academy Skilltree</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="MNC Academy Startseite">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span><strong>MNC Academy</strong><small>Skilltree · Konzeptplattform</small></span>
+    </a>
+    <nav aria-label="Hauptnavigation">
+      <a href="#lernwelt">Lernwelt</a>
+      <a href="#module">Module</a>
+      <a href="#system">System</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Ausbildungslandschaft</p>
+        <h1>Kompetenz wird sichtbar.</h1>
+        <p class="lead">Fachliche Basis, Spezialisierungen, SGA-Seitenwagen und Entwicklungspfade in einer gemeinsamen Lernwelt.</p>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <span></span><span></span><span></span><i></i>
+      </div>
+    </section>
+
+    <section id="lernwelt" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Interaktive Lernkreise</p>
+          <h2>Ausbildungsweg erkunden</h2>
+        </div>
+        <p>Wähle einen Bereich und danach einen Knoten. Bestätigte Zuordnungen und noch offene Fachentscheide bleiben transparent unterscheidbar.</p>
+      </div>
+
+      <div id="track-controls" class="track-controls" aria-label="Ausbildungsbereich auswählen"></div>
+
+      <article id="module-detail" class="detail-panel" aria-live="polite">
+        <div class="detail-title">
+          <span id="detail-id">–</span>
+          <h3 id="detail-name">Knoten auswählen</h3>
+          <p id="detail-description">Die vollständige Bedeutung erscheint hier nach der Auswahl.</p>
+        </div>
+        <dl>
+          <div><dt>Stufe</dt><dd id="detail-level">–</dd></div>
+          <div><dt>Verbindlichkeit</dt><dd id="detail-requirement">–</dd></div>
+          <div><dt>Frist</dt><dd id="detail-deadline">–</dd></div>
+          <div><dt>Vor Abschluss</dt><dd id="detail-restriction">–</dd></div>
+          <div><dt>Verantwortung</dt><dd id="detail-owner">–</dd></div>
+          <div><dt>Entscheidungsstand</dt><dd id="detail-status">–</dd></div>
+        </dl>
+      </article>
+
+      <div class="skilltree-shell">
+        <div class="level-key" aria-hidden="true">
+          <span>L3 · Expertise</span><span>L2 · Spezialisierung</span><span>L1 · Basis</span><span>L0 · Ursprung</span>
+        </div>
+        <svg id="skilltree" viewBox="0 0 1200 760" role="img" aria-label="Interaktiver kreisförmiger Ausbildungsbaum"></svg>
+      </div>
+
+      <div class="visual-legend">
+        <span><i class="legend-dot fach"></i>Fachmodul</span>
+        <span><i class="legend-dot sga"></i>SGA/Elektro</span>
+        <span><i class="legend-dot special"></i>Spezialisierung/Rolle</span>
+        <span><i class="legend-line confirmed"></i>bestätigt</span>
+        <span><i class="legend-line draft"></i>Entwurf/Prüfung</span>
+      </div>
+    </section>
+
+    <section id="module" class="section catalogue-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Gesamtkatalog</p>
+          <h2>Alle vorhandenen Module</h2>
+        </div>
+        <p>Die Rohmodule werden vollständig angezeigt. Kanonische Zuordnungen ergänzen die Quelle, ohne sie zu überschreiben.</p>
+      </div>
+
+      <div class="filters">
+        <label>Suche<input id="search" type="search" placeholder="Modul, ID oder Themenbereich"></label>
+        <label>Fachbereich<select id="area-filter"><option value="">Alle Bereiche</option></select></label>
+        <label>Stufe<select id="level-filter"><option value="">Alle Stufen</option><option>L0</option><option>L1</option><option>L2</option><option>L3</option></select></label>
+        <label>Status<select id="status-filter"><option value="">Alle Entscheide</option><option value="confirmed">Bestätigt</option><option value="review">Entwurf/Prüfung</option><option value="source">Nur Rohquelle</option></select></label>
+      </div>
+      <p id="result-count" class="result-count"></p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>ID</th><th>Modul</th><th>Stufe</th><th>Bereich</th><th>Dauer</th><th>Einordnung</th></tr></thead>
+          <tbody id="module-rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="system" class="section system-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Der Kompass</p>
+          <h2>Ein System, mehrere Wege</h2>
+        </div>
+      </div>
+      <div class="principles">
+        <article><span>01</span><h3>Fachliche Leiter</h3><p>L0 bis L3 führen von der gemeinsamen Grundausbildung über Basis und Spezialisierung bis zur Expertise.</p></article>
+        <article><span>02</span><h3>Eigenständige Seitenwagen</h3><p>SGA- und Elektromodule bleiben selbständig und werden virtuell mit passenden Fachmodulen verknüpft.</p></article>
+        <article><span>03</span><h3>Unabhängige Spezialisierungen</h3><p>Eine Person kann mehrere Einsatzqualifikationen parallel besitzen. Der konkrete Einsatz aktiviert die Anforderungen.</p></article>
+        <article><span>04</span><h3>Separate Führung</h3><p>Personal- und Organisationsführung bilden einen funktionsunabhängigen Lernweg. Expertise bedeutet nicht automatisch Führung.</p></article>
+      </div>
+      <div class="codes" id="code-legend"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>MNC Academy Skilltree</span>
+    <span>Öffentliche Konzeptplattform · ohne Personendaten</span>
+  </footer>
+
+  <template id="node-template">
+    <g class="skill-node" role="button" tabindex="0">
+      <circle class="node-halo"></circle>
+      <circle class="node-core"></circle>
+      <text class="node-title" text-anchor="middle"></text>
+      <text class="node-code" text-anchor="middle"></text>
+    </g>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
