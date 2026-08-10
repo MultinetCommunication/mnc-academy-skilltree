@@ -1,44 +1,19 @@
 # MNC Academy Skilltree
 
-Interaktive Ausbildungslandschaft der Multinet Communication AG.
+Interaktive öffentliche Testumgebung für die Ausbildungslandkarte der MNC Academy.
 
-## Website
+## Öffentliche Testseite
 
-[Academy Skilltree öffnen](https://multinetcommunication.github.io/mnc-academy-skilltree/)
+https://multinetcommunication.github.io/mnc-academy-skilltree/
 
-Die Website wird bei Änderungen auf `main` automatisch über GitHub Pages aktualisiert.
+Die Seite enthält ausschliesslich Demo-Daten und dient zum Testen von Ausbildungswegen,
+Abhängigkeiten, Einsatzberechtigungen und Rollenprofilen.
 
-## Ziel
+## Lokale Entwicklung
 
-Das Projekt bildet die internen Ausbildungswege als professionellen, RPG-inspirierten Skilltree ab. Es verbindet Fachausbildungen, eigenständige SGA- und Elektromodule, Spezialisierungen, Spezialrollen und eine separate Führungsleiter.
-
-Die öffentliche Darstellung enthält keine personenbezogenen Mitarbeitendendaten. Persönliche Kompetenzprofile und Einsatzfreigaben sind nicht Bestandteil dieses Repositories.
-
-## Grundlogik
-
-- **L0** – gemeinsame Grundausbildung
-- **L1** – Basiswissen der Funktion
-- **L2** – Vertiefungen und Spezialisierungen
-- **L3** – Expertenwissen
-- Fachmodule bleiben unter Verantwortung der zuständigen Fachgremien.
-- SGA- und Elektromodule bleiben eigenständig und werden virtuell mit passenden Fachmodulen verknüpft.
-- Personal- und Organisationsführung werden in einer funktionsunabhängigen Führungsleiter abgebildet.
-- Kundenspezifische Ausbildungen werden separat verwaltet und nicht im Hauptbaum dargestellt.
-
-## Projektstatus
-
-Konzept- und Prototypphase. Der Netzbau diente als erster Belastungstest; die Datenstruktur wird nun auf die gesamte Academy erweitert.
-
-## Struktur
-
-```text
-data/           Strukturierte Ausbildungsdaten
-index.html      Öffentliche Website
-styles.css      Visuelles System
-app.js          Interaktion und Datenlogik
-docs/           Konzept- und Entscheidungsdokumentation
+```bash
+npm install
+npm run dev
 ```
 
-## Datenschutz
-
-Dieses Repository enthält ausschliesslich allgemeine Ausbildungswege, Module, Voraussetzungen und Qualifikationslogiken. Personenbezogene Qualifikations- oder Beschäftigtendaten gehören in die geschützte Firmeninfrastruktur und dürfen hier nicht gespeichert werden.
+Mit jedem Push auf `main` wird die Seite automatisch über GitHub Pages veröffentlicht.
