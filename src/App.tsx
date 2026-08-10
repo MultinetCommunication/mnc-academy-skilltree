@@ -360,17 +360,7 @@ export default function Home() {
         <span>Demo ohne Personendaten</span>
       </header>
       <section id="start" className="hero">
-        <p className="eyebrow">MNC Academy</p>
-        <h1>
-          Die ganze Reise.
-          <br />
-          <em>Der eigene Weg leuchtet.</em>
-        </h1>
-        <p>
-          Ausbildungen, Freigaben und Entwicklungsmöglichkeiten in einer
-          interaktiven Landkarte.
-        </p>
-        <a href="#profil">Demo erkunden</a>
+        <h1>MNC Academy Skilltree</h1>
       </section>
       <section id="profil" className="profile">
         <div className="heading">
