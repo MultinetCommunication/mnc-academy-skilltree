@@ -98,7 +98,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "NETZBAU",
@@ -125,7 +126,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "LWL",
@@ -152,7 +154,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "LWL",
@@ -179,7 +182,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "CU",
@@ -206,7 +210,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "CU",
@@ -233,7 +238,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "INHOUSE",
@@ -260,7 +266,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "INHOUSE",
@@ -287,7 +294,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "PROJEKT",
@@ -314,7 +322,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "PROJEKT",
@@ -341,7 +350,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "PLANER",
@@ -368,7 +378,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "PLANER",
@@ -395,7 +406,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "VERTRAG",
@@ -422,7 +434,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "VERTRAG",
@@ -449,7 +462,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "AKQUISE",
@@ -476,7 +490,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "AKQUISE",
@@ -503,7 +518,8 @@
         "areas": "Alles",
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "NETZBAU",
@@ -530,7 +546,11 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in; Freileiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -557,7 +577,11 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in; Freileiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -584,7 +608,11 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in; Freileiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -611,7 +639,11 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in; Freileiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -638,7 +670,11 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -665,7 +701,11 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -692,7 +732,11 @@
         "areas": "Technik; Netzbau",
         "audience": "Netztechnik / Netzbau",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -719,7 +763,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -746,7 +794,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Funktionen mit Fahrzeug-/Anhängerbezug",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -773,7 +825,18 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -800,7 +863,18 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -827,7 +901,18 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -854,7 +939,12 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-023",
+        "MOD-024",
+        "MOD-025"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -881,7 +971,10 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-028"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -908,7 +1001,10 @@
         "areas": "Netzbau",
         "audience": "Netzbauer/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-028"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -935,7 +1031,12 @@
         "areas": "Netzbau",
         "audience": "Freileiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001",
+        "SGA-010"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -962,7 +1063,12 @@
         "areas": "Netzbau",
         "audience": "Freileiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001",
+        "SGA-010"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -981,7 +1087,12 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001",
+        "SGA-010"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -1003,7 +1114,12 @@
       "details": {
         "category": "SGA / Gesundheitsschutz",
         "audience": "Mitarbeitende mit vorgesehenem Nachteinsatz"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001",
+        "SGA-010"
+      ]
     },
     {
       "tree": "NETZBAU",
@@ -1025,7 +1141,8 @@
       "details": {
         "category": "Organisatorischer Nachweis",
         "audience": "Mitarbeitende mit vorgesehenem Nachteinsatz"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "NETZBAU",
@@ -1044,7 +1161,13 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "HR-001",
+        "MOD-002",
+        "SGA-001",
+        "SGA-010"
+      ]
     },
     {
       "tree": "LWL",
@@ -1071,7 +1194,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1098,7 +1225,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1125,7 +1256,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1152,7 +1287,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1179,7 +1318,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1206,7 +1349,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1233,7 +1380,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1260,7 +1411,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1287,7 +1442,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1314,7 +1473,21 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-034",
+        "MOD-035",
+        "MOD-036",
+        "MOD-037",
+        "SGA-010"
+      ]
     },
     {
       "tree": "LWL",
@@ -1341,7 +1514,10 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-042"
+      ]
     },
     {
       "tree": "LWL",
@@ -1368,7 +1544,10 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-043"
+      ]
     },
     {
       "tree": "LWL",
@@ -1395,7 +1574,11 @@
         "areas": "Technik; Netzbau",
         "audience": "Netztechnik / Netzbau",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1422,7 +1605,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1449,7 +1636,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Funktionen mit Fahrzeug-/Anhängerbezug",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "LWL",
@@ -1468,7 +1659,13 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "HR-001",
+        "MOD-002",
+        "SGA-001",
+        "SGA-010"
+      ]
     },
     {
       "tree": "CU",
@@ -1495,7 +1692,11 @@
         "areas": "Technik; Netzbau",
         "audience": "Netztechnik / Netzbau",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "CU",
@@ -1522,7 +1723,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "CU",
@@ -1549,7 +1754,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Funktionen mit Fahrzeug-/Anhängerbezug",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "CU",
@@ -1568,7 +1777,12 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "SGA-010"
+      ]
     },
     {
       "tree": "CU",
@@ -1587,7 +1801,10 @@
       "points": 3,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "OFFEN-CU-L2"
+      ]
     },
     {
       "tree": "CU",
@@ -1606,7 +1823,13 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "HR-001",
+        "MOD-002",
+        "SGA-001",
+        "SGA-010"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1633,7 +1856,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1660,7 +1887,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1687,7 +1918,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1714,7 +1949,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1741,7 +1980,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1768,7 +2011,11 @@
         "areas": "Technik",
         "audience": "Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1795,7 +2042,11 @@
         "areas": "Technik",
         "audience": "Inhouse Techniker/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1822,7 +2073,11 @@
         "areas": "Technik",
         "audience": "Inhouse Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1849,7 +2104,21 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-005",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-038",
+        "MOD-039",
+        "MOD-040",
+        "SGA-011"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1876,7 +2145,10 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-042"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1903,7 +2175,10 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-043"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1930,7 +2205,11 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Inhouse / Gebäudetechnik / Akquise",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1957,7 +2236,11 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Inhouse / Akquise / Gebäudebezug",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -1984,7 +2267,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -2011,7 +2298,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Funktionen mit Fahrzeug-/Anhängerbezug",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -2030,7 +2321,13 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "HR-001",
+        "MOD-002",
+        "SGA-001",
+        "SGA-011"
+      ]
     },
     {
       "tree": "INHOUSE",
@@ -2057,7 +2354,12 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Inhouse / Akquise",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001",
+        "SGA-011"
+      ]
     },
     {
       "tree": "PROJEKT",
@@ -2084,7 +2386,11 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Projektmitarbeiter/in; Engineering; Backoffice",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "PROJEKT",
@@ -2111,7 +2417,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "PROJEKT",
@@ -2138,7 +2448,11 @@
         "areas": "Technik",
         "audience": "LWL (CU) Techniker/in; Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "PROJEKT",
@@ -2165,7 +2479,11 @@
         "areas": "Technik",
         "audience": "Inhouse Techniker/in; Projektmitarbeiter/in",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "PROJEKT",
@@ -2192,7 +2510,11 @@
         "areas": "Technik",
         "audience": "Projektmitarbeiter/in",
         "status": "Review"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "PROJEKT",
@@ -2219,7 +2541,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "PLANER",
@@ -2246,7 +2569,11 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2273,7 +2600,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-045"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2300,7 +2630,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-046"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2327,7 +2660,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-047"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2354,7 +2690,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-048"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2381,7 +2720,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-049"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2408,7 +2750,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-050"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2427,7 +2772,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-051"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2446,7 +2794,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-CONNECTNOW"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2473,7 +2824,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "NEU-CLIMA-ENG"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2500,7 +2854,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering; Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-053"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2527,7 +2884,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-054"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2546,7 +2906,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-061"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2573,7 +2936,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "NEU-KOPA-BASIS"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2600,7 +2966,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-056"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2627,7 +2996,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-057"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2654,7 +3026,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-058"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2681,7 +3056,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-059"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2708,7 +3086,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-063"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2735,7 +3116,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-062"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2762,7 +3146,11 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Projektmitarbeiter/in; Engineering; Backoffice",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "PLANER",
@@ -2789,7 +3177,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "VERTRAG",
@@ -2816,7 +3205,11 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2843,7 +3236,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "MOD-055"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2862,7 +3258,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-047"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2881,7 +3280,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-AKQ-GRUND"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2900,7 +3302,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-ALFRESCO"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2919,7 +3324,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-PROJEKTVORB"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2946,7 +3354,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering; Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "NEU-VERTRAG-PROZESS"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2965,7 +3376,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-054"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -2984,7 +3398,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-I-AM"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3003,7 +3420,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-TERMINIERUNG"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3022,7 +3442,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-ANALYSE"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3041,7 +3464,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-DLV"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3068,7 +3494,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise Backoffice",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "NEU-FEEDER-LOS"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3087,7 +3516,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-050"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3114,7 +3546,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "NEU-CONNECTNOW"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3133,7 +3568,10 @@
       "points": 3,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-049"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3160,7 +3598,11 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Projektmitarbeiter/in; Engineering; Backoffice",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3187,7 +3629,11 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "VERTRAG",
@@ -3214,7 +3660,8 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": []
     },
     {
       "tree": "AKQUISE",
@@ -3233,7 +3680,11 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3260,7 +3711,10 @@
         "areas": "Engineering/Akquise",
         "audience": "Engineering",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "NEU-SKYNET-AKQ"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3279,7 +3733,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-047"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3298,7 +3755,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-AKQ-GRUND"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3317,7 +3777,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-ALFRESCO"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3336,7 +3799,10 @@
       "points": 1,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-TERMINIERUNG"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3355,7 +3821,10 @@
       "points": 2,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-CLIMA-ACQ"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3374,7 +3843,10 @@
       "points": 3,
       "radar": true,
       "elementType": "Ausbildung",
-      "details": {}
+      "details": {},
+      "prerequisiteIds": [
+        "NEU-I-AM"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3401,7 +3873,11 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Inhouse / Gebäudetechnik / Akquise",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3428,7 +3904,11 @@
         "areas": "Engineering/Akquise",
         "audience": "Akquise",
         "status": "In Arbeit"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3455,7 +3935,11 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Inhouse / Akquise / Gebäudebezug",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3482,7 +3966,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Funktionen mit Fahrzeug-/Anhängerbezug",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3509,7 +3997,11 @@
         "areas": "Technik; Engineering/Akquise; Netzbau",
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001"
+      ]
     },
     {
       "tree": "AKQUISE",
@@ -3536,7 +4028,317 @@
         "areas": "Technik; Engineering/Akquise",
         "audience": "Inhouse / Akquise",
         "status": "Nicht begonnen"
-      }
+      },
+      "prerequisiteIds": [
+        "HR-001",
+        "SGA-001",
+        "SGA-011"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "NETZBAU",
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "LWL",
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-034",
+        "MOD-035",
+        "MOD-036",
+        "MOD-037",
+        "SGA-010"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "CU",
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "SGA-010"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "INHOUSE",
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-005",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-038",
+        "MOD-039",
+        "MOD-040",
+        "SGA-011"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "PROJEKT",
+      "prerequisiteIds": [
+        "MOD-029",
+        "MOD-030",
+        "MOD-038",
+        "MOD-041",
+        "SGA-012"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "PLANER",
+      "prerequisiteIds": [
+        "MOD-045",
+        "MOD-046",
+        "MOD-047",
+        "MOD-048",
+        "MOD-049",
+        "MOD-050",
+        "MOD-051",
+        "MOD-053",
+        "MOD-054",
+        "NEU-CLIMA-ENG",
+        "NEU-CONNECTNOW",
+        "SGA-012"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "VERTRAG",
+      "prerequisiteIds": [
+        "MOD-011",
+        "MOD-047",
+        "MOD-054",
+        "MOD-055",
+        "NEU-AKQ-GRUND",
+        "NEU-ALFRESCO",
+        "NEU-PROJEKTVORB",
+        "NEU-VERTRAG-PROZESS",
+        "SGA-012"
+      ]
+    },
+    {
+      "id": "FUE-001",
+      "name": "Ausbildung Vorgesetzte/r",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 99,
+      "prerequisite": "L1 vollständig",
+      "result": "Rolle Vorgesetzte/r",
+      "decision": "Pfad bestätigt; Detailmodule offen",
+      "source": "Besprechung",
+      "axis": "Führung",
+      "points": 3,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "FUE-001",
+        "name": "Ausbildung Vorgesetzte/r",
+        "duration": 0,
+        "category": "Führung & Organisation",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende mit vorgesehener Führungsfunktion",
+        "status": "Detailmodule offen"
+      },
+      "tree": "AKQUISE",
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-005",
+        "MOD-011",
+        "MOD-047",
+        "NEU-AKQ-GRUND",
+        "NEU-ALFRESCO",
+        "NEU-CLIMA-ACQ",
+        "NEU-SKYNET-AKQ",
+        "NEU-TERMINIERUNG",
+        "SGA-011"
+      ]
     }
   ],
   "prerequisites": [
@@ -3621,7 +4423,11 @@
       "requires": "MOD-022 + MOD-012",
       "before": "Kein Einsatz Freileitung",
       "after": "Einsatz im qualifizierten Aufgabenbereich",
-      "rule": "Keine"
+      "rule": "Keine",
+      "requiresIds": [
+        "MOD-012",
+        "MOD-022"
+      ]
     },
     {
       "id": "UNLOCK-KABELAUSZUG",
@@ -3632,7 +4438,13 @@
       "requires": "SGA-010 + DRAFT-SPEC-KABELAUSZUG + DRAFT-SGA-NACHTEINSATZ + DRAFT-NACHWEIS-ARBEITSARZT",
       "before": "Mitarbeit im Tagesbereich unter Begleitung; Nachtarbeit gesperrt",
       "after": "Begleiteter Einsatz im Kabelauszug bei Nacht",
-      "rule": "Externe Maschinenführer bedienen die Maschinen; Gefahrenbereich bei laufender Maschine nie betreten"
+      "rule": "Externe Maschinenführer bedienen die Maschinen; Gefahrenbereich bei laufender Maschine nie betreten",
+      "requiresIds": [
+        "DRAFT-NACHWEIS-ARBEITSARZT",
+        "DRAFT-SGA-NACHTEINSATZ",
+        "DRAFT-SPEC-KABELAUSZUG",
+        "SGA-010"
+      ]
     },
     {
       "id": "UNLOCK-EVN-NETZ",
@@ -3645,7 +4457,12 @@
       "requires": "SGA-010 + MOD-002 + Spezialausbildung",
       "before": "Vollständige Sperre, auch unter Anleitung",
       "after": "Interne Einsatzanforderung erfüllt",
-      "rule": "Kundenfreigabe kann zusätzlich nötig sein"
+      "rule": "Kundenfreigabe kann zusätzlich nötig sein",
+      "requiresIds": [
+        "DRAFT-SGA-ELEKTROVERTEILNETZ",
+        "MOD-002",
+        "SGA-010"
+      ]
     },
     {
       "id": "UNLOCK-EVN-INHOUSE",
@@ -3656,7 +4473,12 @@
       "requires": "SGA-011 + MOD-002 + Spezialausbildung",
       "before": "Vollständige Sperre, auch unter Anleitung",
       "after": "Vorgesehener Inhouse-/LWL-Auftrag",
-      "rule": "Keine Elektroarbeitsfreigabe; Kundenfreigabe möglich"
+      "rule": "Keine Elektroarbeitsfreigabe; Kundenfreigabe möglich",
+      "requiresIds": [
+        "DRAFT-SGA-ELEKTROVERTEILNETZ",
+        "MOD-002",
+        "SGA-011"
+      ]
     },
     {
       "id": "UNLOCK-NIV",
@@ -3668,7 +4490,11 @@
       "requires": "SGA-011 + Elektro-Grundbildung + MOD-006",
       "before": "Tätigkeit gesperrt",
       "after": "Nur definierte FTTH-Arbeiten",
-      "rule": "Freigabeprofil durch Elektrofachbereich festlegen"
+      "rule": "Freigabeprofil durch Elektrofachbereich festlegen",
+      "requiresIds": [
+        "MOD-006",
+        "SGA-011"
+      ]
     },
     {
       "id": "UNLOCK-L3-GERAETE",
@@ -3679,7 +4505,14 @@
       "requires": "L2 + MOD-028 + MOD-026",
       "before": "Kein Expertenstatus",
       "after": "Fachexperte Spezialgeräte",
-      "rule": "Keine Führungsfunktion erforderlich"
+      "rule": "Keine Führungsfunktion erforderlich",
+      "requiresIds": [
+        "MOD-023",
+        "MOD-024",
+        "MOD-025",
+        "MOD-026",
+        "MOD-028"
+      ]
     },
     {
       "id": "UNLOCK-L3-BAUTEN",
@@ -3690,7 +4523,35 @@
       "requires": "L2 + MOD-028 + MOD-027",
       "before": "Kein Expertenstatus",
       "after": "Fachexperte Spezialbauten",
-      "rule": "Keine Führungsfunktion erforderlich"
+      "rule": "Keine Führungsfunktion erforderlich",
+      "requiresIds": [
+        "MOD-023",
+        "MOD-024",
+        "MOD-025",
+        "MOD-027",
+        "MOD-028"
+      ]
+    },
+    {
+      "id": "ROLE-VORGESETZTE",
+      "name": "Vorgesetzte/r",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PROJEKT",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "FUE-001",
+      "requiresIds": [
+        "FUE-001"
+      ],
+      "before": "Führungsrolle noch nicht bestätigt",
+      "after": "Rolle Vorgesetzte/r",
+      "rule": "Unabhängig von einer fachlichen L2- oder L3-Qualifikation"
     }
   ],
   "optional": [
@@ -3975,6 +4836,13 @@
       "name": "Führung & Begleitung",
       "definition": "Formelle Führung, Mentoring, Wissensweitergabe und Verantwortung im Team",
       "color": "#D8A84E"
+    }
+  ],
+  "dataIssues": [
+    {
+      "id": "UNLOCK-NIV",
+      "field": "requires",
+      "note": "Enthält das Fragment 'Elektro-Grundbildung', das auf kein bestehendes Modul verweist. In der bisherigen Regex-Logik wurde dieser Teil der Voraussetzung stillschweigend ignoriert (Berechtigung wurde ohne diese Bedingung freigeschaltet). Bitte klären, welches Modul gemeint ist, und in 'requiresIds' ergänzen."
     }
   ]
 }
