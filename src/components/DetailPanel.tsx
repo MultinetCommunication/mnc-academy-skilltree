@@ -1,17 +1,25 @@
 import type { Assignment, Unlock } from "../lib/types";
-import { level, deadline, requirements, unlockRequirements, unlockReleased } from "../lib/logic";
+import {
+  level,
+  deadline,
+  requirements,
+  unlockRequirements,
+  unlockReleased,
+} from "../lib/logic";
 
 export function DetailPanel({
   selectedItem,
   selectedUnlock,
   items,
   effective,
+  onToggleExternal,
   onClose,
 }: {
   selectedItem?: Assignment;
   selectedUnlock?: Unlock;
   items: Assignment[];
   effective: Set<string>;
+  onToggleExternal: (id: string) => void;
   onClose: () => void;
 }) {
   if (!selectedItem && !selectedUnlock) return null;
@@ -108,6 +116,19 @@ export function DetailPanel({
                   {effective.has(id) ? "✓" : "○"}{" "}
                   {items.find((x) => x.id === id)?.name ?? id}
                 </span>
+              ))}
+              {(selectedUnlock.externalRequirements ?? []).map((ext) => (
+                <label key={ext.id} className="req-external">
+                  <input
+                    type="checkbox"
+                    checked={effective.has(ext.id)}
+                    onChange={() => onToggleExternal(ext.id)}
+                  />
+                  <span className={effective.has(ext.id) ? "done" : ""}>
+                    ⓘ {ext.text}
+                    <em> (extern – manuell für Testzwecke gesetzt, nicht systemseitig geprüft)</em>
+                  </span>
+                </label>
               ))}
               <em>{selectedUnlock.rule}</em>
             </div>

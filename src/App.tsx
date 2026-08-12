@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { data, AXES, type Axis } from "./lib/types";
-import { deadline, uniqueItems } from "./lib/logic";
+import { deadline, uniqueItems, unlockReleased } from "./lib/logic";
 import { Radar } from "./components/Radar";
 import { Map } from "./components/Map";
 import { DetailPanel } from "./components/DetailPanel";
@@ -149,9 +149,7 @@ export default function Home() {
               <small>Persönliche Berechtigungen</small>
               <div className="badges">
                 {permissionUnlocks.map((u) => {
-                  const req = u.requiresIds ?? [],
-                    released =
-                      req.length > 0 && req.every((id) => effective.has(id));
+                  const released = unlockReleased(u, effective);
                   return (
                     <button
                       key={u.id}
@@ -174,8 +172,7 @@ export default function Home() {
               <small>Rollen &amp; Funktionen</small>
               <div className="badges">
                 {roleUnlocks.map((u) => {
-                  const req = u.requiresIds ?? [],
-                    released = req.every((id) => effective.has(id));
+                  const released = unlockReleased(u, effective);
                   return (
                     <button key={u.id} className={`badge role-badge ${released ? "earned" : "pending"}`} onClick={() => setSelected(u.id)}>
                       <i>{released ? "✓" : "⌁"}</i>
@@ -223,6 +220,7 @@ export default function Home() {
         selectedUnlock={selectedUnlock}
         items={items}
         effective={effective}
+        onToggleExternal={toggle}
         onClose={() => setSelected(null)}
       />
       <footer>MNC Academy Skilltree · interaktives Vorführmodell</footer>

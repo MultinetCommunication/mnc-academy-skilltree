@@ -57,9 +57,23 @@ export function requirements(item: Assignment): string[] {
   return item.prerequisiteIds ?? [];
 }
 
-/** Same idea as `requirements`, for unlock/permission entries. */
+/**
+ * Same idea as `requirements`, for unlock/permission entries.
+ * Internal module IDs only — for external (non-module) requirements see
+ * `externalRequirementIds` below.
+ */
 export function unlockRequirements(unlock: Unlock): string[] {
   return unlock.requiresIds ?? [];
+}
+
+/**
+ * IDs for requirements that aren't internal modules (e.g. a completed
+ * apprenticeship done before joining). These use an "EXT-" prefix so they
+ * can't collide with real module IDs. They're toggled manually in the UI
+ * for testing/demo purposes — the app has no way to verify them for real.
+ */
+export function externalRequirementIds(unlock: Unlock): string[] {
+  return (unlock.externalRequirements ?? []).map((r) => r.id);
 }
 
 export type ItemState = "completed" | "available" | "locked";
@@ -75,6 +89,6 @@ export function itemState(
 }
 
 export function unlockReleased(unlock: Unlock, completed: Set<string>) {
-  const req = unlockRequirements(unlock);
+  const req = [...unlockRequirements(unlock), ...externalRequirementIds(unlock)];
   return req.length > 0 && req.every((id) => completed.has(id));
 }

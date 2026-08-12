@@ -523,6 +523,27 @@ a {
 .req span.done {
   color: var(--teal);
 }
+.req label.req-external {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: #d9a441;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+.req label.req-external input {
+  margin-top: 0.15rem;
+}
+.req label.req-external span.done {
+  color: var(--teal);
+}
+.req label.req-external em {
+  display: block;
+  font-size: 0.65rem;
+  color: #8a8a8a;
+  font-style: italic;
+  margin-top: 0.1rem;
+}
 footer {
   padding: 2rem clamp(1rem, 5vw, 5rem);
   border-top: 1px solid #252525;
