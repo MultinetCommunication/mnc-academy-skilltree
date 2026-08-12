@@ -40,8 +40,19 @@ hat keine Wirkung mehr auf die Logik. Das ist bewusst so gewählt: In der Vorgä
 wurde die Logik per Regex aus dem Freitext abgeleitet, was bei jeder Formulierungsänderung
 lautlos brechen konnte.
 
-**Bekannte offene Datenlücke:** `UNLOCK-NIV` enthält im Freitext das Fragment
-„Elektro-Grundbildung", das keinem bestehenden Modul zugeordnet werden konnte. Diese
-Bedingung ist aktuell **nicht** in `requiresIds` enthalten und wird daher beim Freischalten
-nicht geprüft, bis geklärt ist, welches Modul gemeint ist. Siehe `dataIssues` in
-`lib/academy-data.json`.
+## Interne vs. externe Voraussetzungen
+
+Nicht jede Voraussetzung ist ein internes Modul, das man im System abhaken kann. Manche
+Berechtigungen setzen z. B. eine bereits vor Eintritt abgeschlossene Berufslehre voraus
+(z. B. Elektroinstallateur/in EFZ). Solche Bedingungen stehen im Feld
+`externalRequirements` (statt `requiresIds`) und werden in der Oberfläche informativ
+angezeigt, fliessen aber **nicht** automatisch in den Freischaltungsstatus ein – das System
+kann eine externe Qualifikation nicht selbst prüfen, das bleibt eine organisatorische
+Kontrolle (z. B. durch den Fachbereich oder HR).
+
+Beispiel: `UNLOCK-NIV` verlangt neben zwei internen Modulen zusätzlich eine
+abgeschlossene Elektro-Grundbildung als externe Voraussetzung. Im Detail-Overlay der
+Berechtigung lässt sich diese Bedingung über eine Checkbox manuell an-/abhaken – nur für
+Test-/Demozwecke, damit sich auch Berechtigungen mit externen Anteilen vollständig
+durchspielen lassen. Jede externe Voraussetzung hat eine eigene ID mit `EXT-`-Präfix,
+damit sie nicht mit echten Modul-IDs kollidiert.

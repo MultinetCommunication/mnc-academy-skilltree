@@ -4494,6 +4494,12 @@
       "requiresIds": [
         "MOD-006",
         "SGA-011"
+      ],
+      "externalRequirements": [
+        {
+          "id": "EXT-ELEKTRO-GRUNDBILDUNG",
+          "text": "Abgeschlossene Grundbildung Elektroinstallateur/in EFZ oder Montage-Elektriker/in EFZ (vor Eintritt bei Multinet absolviert; wird nicht als internes Modul geführt)"
+        }
       ]
     },
     {
@@ -4836,13 +4842,6 @@
       "name": "Führung & Begleitung",
       "definition": "Formelle Führung, Mentoring, Wissensweitergabe und Verantwortung im Team",
       "color": "#D8A84E"
-    }
-  ],
-  "dataIssues": [
-    {
-      "id": "UNLOCK-NIV",
-      "field": "requires",
-      "note": "Enthält das Fragment 'Elektro-Grundbildung', das auf kein bestehendes Modul verweist. In der bisherigen Regex-Logik wurde dieser Teil der Voraussetzung stillschweigend ignoriert (Berechtigung wurde ohne diese Bedingung freigeschaltet). Bitte klären, welches Modul gemeint ist, und in 'requiresIds' ergänzen."
     }
   ]
 }
