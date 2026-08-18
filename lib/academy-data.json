@@ -99,7 +99,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -127,7 +132,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -155,7 +165,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -183,7 +198,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -211,7 +231,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -239,7 +264,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -267,7 +297,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -295,7 +330,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -323,7 +363,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -351,7 +396,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -379,7 +429,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -407,7 +462,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -435,7 +495,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -463,7 +528,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -491,7 +561,12 @@
         "audience": "Alle Funktionen",
         "status": "In Arbeit"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -519,7 +594,12 @@
         "audience": "Alle Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -550,7 +630,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -581,7 +666,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -612,7 +702,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -643,7 +738,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -674,7 +774,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -705,7 +810,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -736,7 +846,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -767,7 +882,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -798,7 +918,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -836,7 +961,12 @@
         "MOD-020",
         "MOD-021",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -874,7 +1004,12 @@
         "MOD-020",
         "MOD-021",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -912,7 +1047,12 @@
         "MOD-020",
         "MOD-021",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -944,7 +1084,12 @@
         "MOD-023",
         "MOD-024",
         "MOD-025"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -974,7 +1119,12 @@
       },
       "prerequisiteIds": [
         "MOD-028"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -1004,7 +1154,12 @@
       },
       "prerequisiteIds": [
         "MOD-028"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -1036,7 +1191,12 @@
         "HR-001",
         "SGA-001",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -1068,7 +1228,12 @@
         "HR-001",
         "SGA-001",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -1092,7 +1257,12 @@
         "HR-001",
         "SGA-001",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -1119,7 +1289,12 @@
         "HR-001",
         "SGA-001",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -1142,7 +1317,12 @@
         "category": "Organisatorischer Nachweis",
         "audience": "Mitarbeitende mit vorgesehenem Nachteinsatz"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "NETZBAU",
@@ -1167,7 +1347,12 @@
         "MOD-002",
         "SGA-001",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1198,7 +1383,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1229,7 +1419,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1260,7 +1455,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1291,7 +1491,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1322,7 +1527,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1353,7 +1563,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1384,7 +1599,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1415,7 +1635,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1446,7 +1671,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1487,7 +1717,12 @@
         "MOD-036",
         "MOD-037",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1517,7 +1752,12 @@
       },
       "prerequisiteIds": [
         "MOD-042"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1547,7 +1787,12 @@
       },
       "prerequisiteIds": [
         "MOD-043"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1578,7 +1823,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1609,7 +1859,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1640,7 +1895,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "LWL",
@@ -1665,7 +1925,12 @@
         "MOD-002",
         "SGA-001",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -1696,7 +1961,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -1727,7 +1997,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -1758,7 +2033,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -1782,7 +2062,12 @@
         "MOD-002",
         "MOD-004",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -1804,7 +2089,12 @@
       "details": {},
       "prerequisiteIds": [
         "OFFEN-CU-L2"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "CU",
@@ -1829,7 +2119,12 @@
         "MOD-002",
         "SGA-001",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -1860,7 +2155,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -1891,7 +2191,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -1922,7 +2227,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -1953,7 +2263,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -1984,7 +2299,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2015,7 +2335,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2046,7 +2371,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2077,7 +2407,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2118,7 +2453,12 @@
         "MOD-039",
         "MOD-040",
         "SGA-011"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2148,7 +2488,12 @@
       },
       "prerequisiteIds": [
         "MOD-042"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2178,7 +2523,12 @@
       },
       "prerequisiteIds": [
         "MOD-043"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2209,7 +2559,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2240,7 +2595,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2271,7 +2631,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2302,7 +2667,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2327,7 +2697,12 @@
         "MOD-002",
         "SGA-001",
         "SGA-011"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "INHOUSE",
@@ -2359,7 +2734,12 @@
         "HR-001",
         "SGA-001",
         "SGA-011"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -2390,7 +2770,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -2421,7 +2806,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -2452,7 +2842,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -2483,7 +2878,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Extern-Online",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -2514,7 +2914,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PROJEKT",
@@ -2542,7 +2947,12 @@
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2573,7 +2983,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2603,7 +3018,12 @@
       },
       "prerequisiteIds": [
         "MOD-045"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2633,7 +3053,12 @@
       },
       "prerequisiteIds": [
         "MOD-046"
-      ]
+      ],
+      "einmalig": true,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2663,7 +3088,12 @@
       },
       "prerequisiteIds": [
         "MOD-047"
-      ]
+      ],
+      "einmalig": true,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2693,7 +3123,12 @@
       },
       "prerequisiteIds": [
         "MOD-048"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2723,7 +3158,12 @@
       },
       "prerequisiteIds": [
         "MOD-049"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2753,7 +3193,12 @@
       },
       "prerequisiteIds": [
         "MOD-050"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2775,7 +3220,12 @@
       "details": {},
       "prerequisiteIds": [
         "MOD-051"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2797,7 +3247,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-CONNECTNOW"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2827,7 +3282,12 @@
       },
       "prerequisiteIds": [
         "NEU-CLIMA-ENG"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2857,7 +3317,12 @@
       },
       "prerequisiteIds": [
         "MOD-053"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2866,7 +3331,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 12,
       "prerequisite": "MOD-054",
       "result": "Nächster Fachschritt",
@@ -2887,7 +3352,12 @@
       },
       "prerequisiteIds": [
         "MOD-054"
-      ]
+      ],
+      "einmalig": true,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2896,7 +3366,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 13,
       "prerequisite": "MOD-061",
       "result": "Nächster Fachschritt",
@@ -2909,7 +3379,12 @@
       "details": {},
       "prerequisiteIds": [
         "MOD-061"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2918,7 +3393,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 14,
       "prerequisite": "NEU-KOPA-BASIS",
       "result": "Nächster Fachschritt",
@@ -2939,7 +3414,12 @@
       },
       "prerequisiteIds": [
         "NEU-KOPA-BASIS"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2948,7 +3428,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 15,
       "prerequisite": "MOD-056",
       "result": "Nächster Fachschritt",
@@ -2969,7 +3449,12 @@
       },
       "prerequisiteIds": [
         "MOD-056"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -2978,7 +3463,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 16,
       "prerequisite": "MOD-057",
       "result": "Nächster Fachschritt",
@@ -2999,7 +3484,12 @@
       },
       "prerequisiteIds": [
         "MOD-057"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -3008,7 +3498,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 17,
       "prerequisite": "MOD-058",
       "result": "Nächster Fachschritt",
@@ -3029,7 +3519,12 @@
       },
       "prerequisiteIds": [
         "MOD-058"
-      ]
+      ],
+      "einmalig": true,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -3059,7 +3554,12 @@
       },
       "prerequisiteIds": [
         "MOD-059"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -3089,7 +3589,12 @@
       },
       "prerequisiteIds": [
         "MOD-063"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -3119,7 +3624,12 @@
       },
       "prerequisiteIds": [
         "MOD-062"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -3150,7 +3660,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "PLANER",
@@ -3178,7 +3693,12 @@
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3209,7 +3729,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3239,7 +3764,12 @@
       },
       "prerequisiteIds": [
         "MOD-055"
-      ]
+      ],
+      "einmalig": true,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3261,7 +3791,12 @@
       "details": {},
       "prerequisiteIds": [
         "MOD-047"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3283,7 +3818,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-AKQ-GRUND"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3305,7 +3845,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-ALFRESCO"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3327,7 +3872,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-PROJEKTVORB"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3357,7 +3907,12 @@
       },
       "prerequisiteIds": [
         "NEU-VERTRAG-PROZESS"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3366,7 +3921,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 8,
       "prerequisite": "MOD-054",
       "result": "Nächster Fachschritt",
@@ -3379,7 +3934,12 @@
       "details": {},
       "prerequisiteIds": [
         "MOD-054"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3388,7 +3948,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 9,
       "prerequisite": "NEU-I-AM",
       "result": "Nächster Fachschritt",
@@ -3401,7 +3961,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-I-AM"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3410,7 +3975,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 10,
       "prerequisite": "NEU-TERMINIERUNG",
       "result": "Nächster Fachschritt",
@@ -3423,7 +3988,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-TERMINIERUNG"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3432,7 +4002,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 11,
       "prerequisite": "NEU-ANALYSE",
       "result": "Nächster Fachschritt",
@@ -3445,7 +4015,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-ANALYSE"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3454,7 +4029,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 12,
       "prerequisite": "NEU-DLV",
       "result": "Nächster Fachschritt",
@@ -3467,7 +4042,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-DLV"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3476,7 +4056,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 13,
       "prerequisite": "NEU-FEEDER-LOS",
       "result": "Nächster Fachschritt",
@@ -3497,7 +4077,12 @@
       },
       "prerequisiteIds": [
         "NEU-FEEDER-LOS"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3506,7 +4091,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 14,
       "prerequisite": "MOD-050",
       "result": "Nächster Fachschritt",
@@ -3519,7 +4104,12 @@
       "details": {},
       "prerequisiteIds": [
         "MOD-050"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3528,7 +4118,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 15,
       "prerequisite": "NEU-CONNECTNOW",
       "result": "Nächster Fachschritt",
@@ -3549,7 +4139,12 @@
       },
       "prerequisiteIds": [
         "NEU-CONNECTNOW"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "E-Learning",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3571,7 +4166,12 @@
       "details": {},
       "prerequisiteIds": [
         "MOD-049"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3602,7 +4202,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3633,7 +4238,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "VERTRAG",
@@ -3661,7 +4271,12 @@
         "audience": "Technische / operative Funktionen",
         "status": "Freigegeben"
       },
-      "prerequisiteIds": []
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3684,7 +4299,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3714,7 +4334,12 @@
       },
       "prerequisiteIds": [
         "NEU-SKYNET-AKQ"
-      ]
+      ],
+      "einmalig": true,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "Präsenz",
+      "deliveryUnconfirmed": false,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3736,7 +4361,12 @@
       "details": {},
       "prerequisiteIds": [
         "MOD-047"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3758,7 +4388,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-AKQ-GRUND"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3780,7 +4415,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-ALFRESCO"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3802,7 +4442,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-TERMINIERUNG"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3811,7 +4456,7 @@
       "strand": "Fach",
       "level": "L2",
       "deadline": "–",
-      "requirement": "Freiwillige Entwicklung",
+      "requirement": "Entwicklungspflicht",
       "order": 7,
       "prerequisite": "NEU-CLIMA-ACQ",
       "result": "Nächster Fachschritt",
@@ -3824,7 +4469,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-CLIMA-ACQ"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3846,7 +4496,12 @@
       "details": {},
       "prerequisiteIds": [
         "NEU-I-AM"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3877,7 +4532,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3908,7 +4568,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3939,7 +4604,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -3970,7 +4640,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -4001,7 +4676,12 @@
       "prerequisiteIds": [
         "HR-001",
         "SGA-001"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "tree": "AKQUISE",
@@ -4033,7 +4713,12 @@
         "HR-001",
         "SGA-001",
         "SGA-011"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4071,7 +4756,12 @@
         "MOD-020",
         "MOD-021",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4112,7 +4802,12 @@
         "MOD-036",
         "MOD-037",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4144,7 +4839,12 @@
         "MOD-002",
         "MOD-004",
         "SGA-010"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4185,7 +4885,12 @@
         "MOD-039",
         "MOD-040",
         "SGA-011"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4219,7 +4924,12 @@
         "MOD-038",
         "MOD-041",
         "SGA-012"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4260,7 +4970,12 @@
         "NEU-CLIMA-ENG",
         "NEU-CONNECTNOW",
         "SGA-012"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4298,7 +5013,12 @@
         "NEU-PROJEKTVORB",
         "NEU-VERTRAG-PROZESS",
         "SGA-012"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     },
     {
       "id": "FUE-001",
@@ -4338,7 +5058,1656 @@
         "NEU-SKYNET-AKQ",
         "NEU-TERMINIERUNG",
         "SGA-011"
-      ]
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "NETZBAU",
+      "id": "SGA-013",
+      "name": "SGA in der Führung I",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 100,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-013",
+        "name": "SGA in der Führung I",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "NETZBAU",
+      "id": "SGA-014",
+      "name": "SGA in der Führung II",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 101,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-014",
+        "name": "SGA in der Führung II",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "LWL",
+      "id": "SGA-013",
+      "name": "SGA in der Führung I",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 100,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-013",
+        "name": "SGA in der Führung I",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "LWL",
+      "id": "SGA-014",
+      "name": "SGA in der Führung II",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 101,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-014",
+        "name": "SGA in der Führung II",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "CU",
+      "id": "SGA-013",
+      "name": "SGA in der Führung I",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 100,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-013",
+        "name": "SGA in der Führung I",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "CU",
+      "id": "SGA-014",
+      "name": "SGA in der Führung II",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 101,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-014",
+        "name": "SGA in der Führung II",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "INHOUSE",
+      "id": "SGA-013",
+      "name": "SGA in der Führung I",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 100,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-013",
+        "name": "SGA in der Führung I",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "INHOUSE",
+      "id": "SGA-014",
+      "name": "SGA in der Führung II",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 101,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-014",
+        "name": "SGA in der Führung II",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "SGA-013",
+      "name": "SGA in der Führung I",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 100,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-013",
+        "name": "SGA in der Führung I",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "SGA-014",
+      "name": "SGA in der Führung II",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 101,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-014",
+        "name": "SGA in der Führung II",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "VERTRAG",
+      "id": "SGA-013",
+      "name": "SGA in der Führung I",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 100,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-013",
+        "name": "SGA in der Führung I",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "VERTRAG",
+      "id": "SGA-014",
+      "name": "SGA in der Führung II",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 101,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-014",
+        "name": "SGA in der Führung II",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "AKQUISE",
+      "id": "SGA-013",
+      "name": "SGA in der Führung I",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 100,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-013",
+        "name": "SGA in der Führung I",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "AKQUISE",
+      "id": "SGA-014",
+      "name": "SGA in der Führung II",
+      "strand": "Führungspfad",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 101,
+      "prerequisite": "Keine",
+      "result": "Baustein Karriereleiter",
+      "decision": "Konzept bestätigt; Inhalt offen",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-014",
+        "name": "SGA in der Führung II",
+        "duration": null,
+        "category": "SGA Führung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende auf dem Führungspfad",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "NEU-I-AM",
+      "name": "I AM",
+      "strand": "Fach",
+      "level": "L2",
+      "deadline": "–",
+      "requirement": "Entwicklungspflicht",
+      "order": 8,
+      "prerequisite": "MOD-054",
+      "result": "Nächster Fachschritt",
+      "decision": "ID offen; ergänzt für Planer/in gemäss Akquise-Liste (Zielgruppe ACQ, BO, GM, PL)",
+      "source": "Akquise-Liste (Schulung_Academy_Akquise.xlsx)",
+      "axis": "Fach",
+      "points": 2,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {},
+      "prerequisiteIds": [
+        "MOD-054"
+      ],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "NETZBAU",
+      "id": "SGA-015",
+      "name": "Arbeiten in der SGA",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 102,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-015",
+        "name": "Arbeiten in der SGA",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "NETZBAU",
+      "id": "SGA-016",
+      "name": "Gefahrstoffbeauftragte/r Grundlagen",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 103,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-016",
+        "name": "Gefahrstoffbeauftragte/r Grundlagen",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "NETZBAU",
+      "id": "PRAX-001",
+      "name": "Praxisbildner/in Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "PRAX-001",
+        "name": "Praxisbildner/in Grundmodul",
+        "duration": null,
+        "category": "Berufsbildung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "NETZBAU",
+      "id": "INSP-001",
+      "name": "Fachperson Leiterinspektion Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-001",
+        "name": "Fachperson Leiterinspektion Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "NETZBAU",
+      "id": "INSP-002",
+      "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 2,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-002",
+        "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "LWL",
+      "id": "SGA-015",
+      "name": "Arbeiten in der SGA",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 102,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-015",
+        "name": "Arbeiten in der SGA",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "LWL",
+      "id": "SGA-016",
+      "name": "Gefahrstoffbeauftragte/r Grundlagen",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 103,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-016",
+        "name": "Gefahrstoffbeauftragte/r Grundlagen",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "LWL",
+      "id": "PRAX-001",
+      "name": "Praxisbildner/in Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "PRAX-001",
+        "name": "Praxisbildner/in Grundmodul",
+        "duration": null,
+        "category": "Berufsbildung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "LWL",
+      "id": "INSP-001",
+      "name": "Fachperson Leiterinspektion Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-001",
+        "name": "Fachperson Leiterinspektion Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "LWL",
+      "id": "INSP-002",
+      "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 2,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-002",
+        "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "CU",
+      "id": "SGA-015",
+      "name": "Arbeiten in der SGA",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 102,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-015",
+        "name": "Arbeiten in der SGA",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "CU",
+      "id": "SGA-016",
+      "name": "Gefahrstoffbeauftragte/r Grundlagen",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 103,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-016",
+        "name": "Gefahrstoffbeauftragte/r Grundlagen",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "CU",
+      "id": "PRAX-001",
+      "name": "Praxisbildner/in Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "PRAX-001",
+        "name": "Praxisbildner/in Grundmodul",
+        "duration": null,
+        "category": "Berufsbildung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "CU",
+      "id": "INSP-001",
+      "name": "Fachperson Leiterinspektion Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-001",
+        "name": "Fachperson Leiterinspektion Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "CU",
+      "id": "INSP-002",
+      "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 2,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-002",
+        "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "INHOUSE",
+      "id": "SGA-015",
+      "name": "Arbeiten in der SGA",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 102,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-015",
+        "name": "Arbeiten in der SGA",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "INHOUSE",
+      "id": "SGA-016",
+      "name": "Gefahrstoffbeauftragte/r Grundlagen",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 103,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-016",
+        "name": "Gefahrstoffbeauftragte/r Grundlagen",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "INHOUSE",
+      "id": "PRAX-001",
+      "name": "Praxisbildner/in Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "PRAX-001",
+        "name": "Praxisbildner/in Grundmodul",
+        "duration": null,
+        "category": "Berufsbildung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "INHOUSE",
+      "id": "INSP-001",
+      "name": "Fachperson Leiterinspektion Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-001",
+        "name": "Fachperson Leiterinspektion Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "INHOUSE",
+      "id": "INSP-002",
+      "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 2,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-002",
+        "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "SGA-015",
+      "name": "Arbeiten in der SGA",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 102,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-015",
+        "name": "Arbeiten in der SGA",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "SGA-016",
+      "name": "Gefahrstoffbeauftragte/r Grundlagen",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 103,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-016",
+        "name": "Gefahrstoffbeauftragte/r Grundlagen",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "PRAX-001",
+      "name": "Praxisbildner/in Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "PRAX-001",
+        "name": "Praxisbildner/in Grundmodul",
+        "duration": null,
+        "category": "Berufsbildung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "INSP-001",
+      "name": "Fachperson Leiterinspektion Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-001",
+        "name": "Fachperson Leiterinspektion Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "PLANER",
+      "id": "INSP-002",
+      "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 2,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-002",
+        "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "VERTRAG",
+      "id": "SGA-015",
+      "name": "Arbeiten in der SGA",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 102,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-015",
+        "name": "Arbeiten in der SGA",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "VERTRAG",
+      "id": "SGA-016",
+      "name": "Gefahrstoffbeauftragte/r Grundlagen",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 103,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-016",
+        "name": "Gefahrstoffbeauftragte/r Grundlagen",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "VERTRAG",
+      "id": "PRAX-001",
+      "name": "Praxisbildner/in Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "PRAX-001",
+        "name": "Praxisbildner/in Grundmodul",
+        "duration": null,
+        "category": "Berufsbildung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "VERTRAG",
+      "id": "INSP-001",
+      "name": "Fachperson Leiterinspektion Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-001",
+        "name": "Fachperson Leiterinspektion Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "VERTRAG",
+      "id": "INSP-002",
+      "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 2,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-002",
+        "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "AKQUISE",
+      "id": "SGA-015",
+      "name": "Arbeiten in der SGA",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 102,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-015",
+        "name": "Arbeiten in der SGA",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "AKQUISE",
+      "id": "SGA-016",
+      "name": "Gefahrstoffbeauftragte/r Grundlagen",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 103,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "SGA",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "SGA-016",
+        "name": "Gefahrstoffbeauftragte/r Grundlagen",
+        "duration": null,
+        "category": "SGA Koordinationsstruktur",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "AKQUISE",
+      "id": "PRAX-001",
+      "name": "Praxisbildner/in Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "PRAX-001",
+        "name": "Praxisbildner/in Grundmodul",
+        "duration": null,
+        "category": "Berufsbildung",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "AKQUISE",
+      "id": "INSP-001",
+      "name": "Fachperson Leiterinspektion Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 1,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-001",
+        "name": "Fachperson Leiterinspektion Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
+    },
+    {
+      "tree": "AKQUISE",
+      "id": "INSP-002",
+      "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+      "strand": "Spezialrolle",
+      "level": "L2",
+      "deadline": "Bedarf",
+      "requirement": "Fakultativ / Rollenpfad",
+      "order": 2,
+      "prerequisite": "Keine",
+      "result": "Baustein Spezialrolle",
+      "decision": "Konzept bestätigt; Inhalt folgt später",
+      "source": "Besprechung",
+      "axis": "Persönlichkeit",
+      "points": 1,
+      "radar": true,
+      "elementType": "Ausbildung",
+      "details": {
+        "id": "INSP-002",
+        "name": "Fachperson periodische Prüfung Elektrogeräte Grundmodul",
+        "duration": null,
+        "category": "Spezialrolle Sicherheit",
+        "areas": "Alle Fachbereiche",
+        "audience": "Mitarbeitende in entsprechender Spezialrolle",
+        "status": "Detailmodule offen"
+      },
+      "prerequisiteIds": [],
+      "einmalig": false,
+      "deliveryFirst": "Präsenz",
+      "deliveryRepeat": "E-Learning",
+      "deliveryUnconfirmed": true,
+      "validityMonths": 0
     }
   ],
   "prerequisites": [
@@ -4558,6 +6927,646 @@
       "before": "Führungsrolle noch nicht bestätigt",
       "after": "Rolle Vorgesetzte/r",
       "rule": "Unabhängig von einer fachlichen L2- oder L3-Qualifikation"
+    },
+    {
+      "id": "ROLE-F1-NETZBAU",
+      "name": "F1 – Teamleiter/in (Realisation)",
+      "trees": [
+        "NETZBAU"
+      ],
+      "requires": "L1 vollständig",
+      "before": "Keine Führungsfunktion",
+      "after": "Qualifiziert für Teamleiter/in",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010",
+        "MOD-002",
+        "MOD-004"
+      ]
+    },
+    {
+      "id": "ROLE-F1-LWL",
+      "name": "F1 – Teamleiter/in (Realisation)",
+      "trees": [
+        "LWL"
+      ],
+      "requires": "L1 vollständig",
+      "before": "Keine Führungsfunktion",
+      "after": "Qualifiziert für Teamleiter/in",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-034",
+        "MOD-035",
+        "MOD-036",
+        "MOD-037",
+        "SGA-010",
+        "MOD-002",
+        "MOD-004"
+      ]
+    },
+    {
+      "id": "ROLE-F1-CU",
+      "name": "F1 – Teamleiter/in (Realisation)",
+      "trees": [
+        "CU"
+      ],
+      "requires": "L1 vollständig",
+      "before": "Keine Führungsfunktion",
+      "after": "Qualifiziert für Teamleiter/in",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "SGA-010",
+        "MOD-002",
+        "MOD-004"
+      ]
+    },
+    {
+      "id": "ROLE-F1-INHOUSE",
+      "name": "F1 – Teamleiter/in (Realisation)",
+      "trees": [
+        "INHOUSE"
+      ],
+      "requires": "L1 vollständig",
+      "before": "Keine Führungsfunktion",
+      "after": "Qualifiziert für Teamleiter/in",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-038",
+        "MOD-039",
+        "MOD-040",
+        "SGA-011",
+        "MOD-005",
+        "MOD-002",
+        "MOD-004"
+      ]
+    },
+    {
+      "id": "ROLE-F2-NETZBAU",
+      "name": "F2 – Bauführer/in (Realisation)",
+      "trees": [
+        "NETZBAU"
+      ],
+      "requires": "L1 vollständig",
+      "before": "Keine Führungsfunktion",
+      "after": "Qualifiziert für Bauführer/in",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010",
+        "MOD-002",
+        "MOD-004"
+      ]
+    },
+    {
+      "id": "ROLE-F3-NETZBAU",
+      "name": "F3 – Bauleiter/in (Realisation)",
+      "trees": [
+        "NETZBAU"
+      ],
+      "requires": "L2 vollständig + FUE-001 + SGA-013",
+      "before": "Keine Führungsfunktion",
+      "after": "Qualifiziert für Bauleiter/in",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-023",
+        "MOD-024",
+        "MOD-025",
+        "FUE-001",
+        "SGA-013"
+      ]
+    },
+    {
+      "id": "ROLE-F4-NETZBAU",
+      "name": "F4 – Gebietsverantwortliche/r (Realisation)",
+      "trees": [
+        "NETZBAU"
+      ],
+      "requires": "L2 vollständig + FUE-001 + SGA-013",
+      "before": "Keine Gebietsverantwortung",
+      "after": "Qualifiziert für Gebietsverantwortliche/r",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-023",
+        "MOD-024",
+        "MOD-025",
+        "FUE-001",
+        "SGA-013"
+      ]
+    },
+    {
+      "id": "ROLE-F5-NETZBAU",
+      "name": "F5 – Leiter/in (Realisation)",
+      "trees": [
+        "NETZBAU"
+      ],
+      "requires": "L2 vollständig + FUE-001 + SGA-014",
+      "before": "Keine Abteilungsleitung",
+      "after": "Qualifiziert für Leiter/in (Realisation)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-023",
+        "MOD-024",
+        "MOD-025",
+        "FUE-001",
+        "SGA-014"
+      ]
+    },
+    {
+      "id": "ROLE-F6",
+      "name": "F6 – Direktor/in",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "FUE-001 + SGA-014",
+      "before": "Keine Geschäftsleitungsfunktion",
+      "after": "Qualifiziert für Direktor/in (Core Business bzw. Region/Tochterfirma)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "FUE-001",
+        "SGA-014"
+      ]
+    },
+    {
+      "id": "ROLE-F4-LWL",
+      "name": "F4 – Gebietsverantwortliche/r (Realisation)",
+      "trees": [
+        "LWL"
+      ],
+      "requires": "L2 (LWL Messtechnik II) + FUE-001 + SGA-013",
+      "before": "Keine Gebietsverantwortung",
+      "after": "Qualifiziert für Gebietsverantwortliche/r",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-043",
+        "FUE-001",
+        "SGA-013"
+      ]
+    },
+    {
+      "id": "ROLE-F5-LWL",
+      "name": "F5 – Leiter/in (Realisation)",
+      "trees": [
+        "LWL"
+      ],
+      "requires": "L2 (LWL Messtechnik II) + FUE-001 + SGA-014",
+      "before": "Keine Abteilungsleitung",
+      "after": "Qualifiziert für Leiter/in (Realisation)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-043",
+        "FUE-001",
+        "SGA-014"
+      ]
+    },
+    {
+      "id": "ROLE-F4-INHOUSE",
+      "name": "F4 – Gebietsverantwortliche/r (Realisation)",
+      "trees": [
+        "INHOUSE"
+      ],
+      "requires": "L2 (LWL Messtechnik II) + FUE-001 + SGA-013",
+      "before": "Keine Gebietsverantwortung",
+      "after": "Qualifiziert für Gebietsverantwortliche/r",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-043",
+        "FUE-001",
+        "SGA-013"
+      ]
+    },
+    {
+      "id": "ROLE-F5-INHOUSE",
+      "name": "F5 – Leiter/in (Realisation)",
+      "trees": [
+        "INHOUSE"
+      ],
+      "requires": "L2 (LWL Messtechnik II) + FUE-001 + SGA-014",
+      "before": "Keine Abteilungsleitung",
+      "after": "Qualifiziert für Leiter/in (Realisation)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-043",
+        "FUE-001",
+        "SGA-014"
+      ]
+    },
+    {
+      "id": "ROLE-F4-PLANER",
+      "name": "F4 – Gebietsverantwortliche/r (Engineering)",
+      "trees": [
+        "PLANER"
+      ],
+      "requires": "L2 vollständig (7 Module) + FUE-001 + SGA-013",
+      "before": "Keine Gebietsverantwortung",
+      "after": "Qualifiziert für Gebietsverantwortliche/r (Engineering)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-061",
+        "NEU-KOPA-BASIS",
+        "MOD-056",
+        "MOD-057",
+        "MOD-058",
+        "MOD-059",
+        "NEU-I-AM",
+        "FUE-001",
+        "SGA-013"
+      ]
+    },
+    {
+      "id": "ROLE-F5-PLANER",
+      "name": "F5 – Leiter/in (Engineering)",
+      "trees": [
+        "PLANER"
+      ],
+      "requires": "L2 vollständig (7 Module) + FUE-001 + SGA-014",
+      "before": "Keine Abteilungsleitung",
+      "after": "Qualifiziert für Leiter/in (Engineering)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "MOD-061",
+        "NEU-KOPA-BASIS",
+        "MOD-056",
+        "MOD-057",
+        "MOD-058",
+        "MOD-059",
+        "NEU-I-AM",
+        "FUE-001",
+        "SGA-014"
+      ]
+    },
+    {
+      "id": "ROLE-F4-VERTRAG",
+      "name": "F4 – Gebietsverantwortliche/r (Akquisition)",
+      "trees": [
+        "VERTRAG"
+      ],
+      "requires": "L2 vollständig (8 Module) + FUE-001 + SGA-013",
+      "before": "Keine Gebietsverantwortung",
+      "after": "Qualifiziert für Gebietsverantwortliche/r (Akquisition)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "NEU-I-AM",
+        "NEU-TERMINIERUNG",
+        "NEU-ANALYSE",
+        "NEU-DLV",
+        "NEU-FEEDER-LOS",
+        "MOD-050",
+        "NEU-CONNECTNOW",
+        "MOD-049",
+        "FUE-001",
+        "SGA-013"
+      ]
+    },
+    {
+      "id": "ROLE-F5-VERTRAG",
+      "name": "F5 – Leiter/in (Akquisition)",
+      "trees": [
+        "VERTRAG"
+      ],
+      "requires": "L2 vollständig (8 Module) + FUE-001 + SGA-014",
+      "before": "Keine Abteilungsleitung",
+      "after": "Qualifiziert für Leiter/in (Akquisition)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "NEU-I-AM",
+        "NEU-TERMINIERUNG",
+        "NEU-ANALYSE",
+        "NEU-DLV",
+        "NEU-FEEDER-LOS",
+        "MOD-050",
+        "NEU-CONNECTNOW",
+        "MOD-049",
+        "FUE-001",
+        "SGA-014"
+      ]
+    },
+    {
+      "id": "ROLE-F5-AKQUISE",
+      "name": "F5 – Leiter/in (Akquisition)",
+      "trees": [
+        "AKQUISE"
+      ],
+      "requires": "L2 (I AM) + FUE-001 + SGA-014",
+      "before": "Keine Abteilungsleitung",
+      "after": "Qualifiziert für Leiter/in (Akquisition)",
+      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
+      "requiresIds": [
+        "NEU-I-AM",
+        "FUE-001",
+        "SGA-014"
+      ]
+    },
+    {
+      "id": "SPEZ-FACHEXPERTE-NETZBAU",
+      "name": "Fachexperte Realisation – Netzbau",
+      "trees": [
+        "NETZBAU"
+      ],
+      "requires": "L2 + MOD-028 + MOD-026 + MOD-027",
+      "before": "Kein Fachexperten-Status",
+      "after": "Fachexperte Netzbau (Spezialgeräte + Spezialbauten)",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "MOD-023",
+        "MOD-024",
+        "MOD-025",
+        "MOD-028",
+        "MOD-026",
+        "MOD-027"
+      ]
+    },
+    {
+      "id": "SPEZ-FACHEXPERTE-TECHNIK",
+      "name": "Fachexperte Realisation – Technik",
+      "trees": [
+        "LWL",
+        "INHOUSE"
+      ],
+      "requires": "L2 (MOD-043) + MOD-044 (LWL Messtechnik III)",
+      "before": "Kein Fachexperten-Status",
+      "after": "Fachexperte Realisation – Technik",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "MOD-043",
+        "MOD-044"
+      ]
+    },
+    {
+      "id": "SPEZ-FACHEXPERTE-ENGINEERING",
+      "name": "Fachexperte Engineering",
+      "trees": [
+        "PLANER"
+      ],
+      "requires": "L2 vollständig + MOD-063 + MOD-062 + MOD-064",
+      "before": "Kein Fachexperten-Status",
+      "after": "Fachexperte Engineering",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "MOD-061",
+        "NEU-KOPA-BASIS",
+        "MOD-056",
+        "MOD-057",
+        "MOD-058",
+        "MOD-059",
+        "NEU-I-AM",
+        "MOD-063",
+        "MOD-062",
+        "MOD-064"
+      ]
+    },
+    {
+      "id": "SPEZ-FACHEXPERTE-AKQUISITION",
+      "name": "Fachexperte Akquisition",
+      "trees": [
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "L2 vollständig + NEU-REDESIGN-QUIT (ReDesign Quittierung)",
+      "before": "Kein Fachexperten-Status",
+      "after": "Fachexperte Akquisition",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "NEU-REDESIGN-QUIT"
+      ]
+    },
+    {
+      "id": "SPEZ-BERUFSBILDNER",
+      "name": "Berufsbildner/in",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "Externe Berufsbildner-Ausbildung",
+      "before": "Nicht befähigt zur formellen Lehrverantwortung",
+      "after": "Fachexperte Berufsbildung – befähigt für die Rolle Berufsbildner/in",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [],
+      "externalRequirements": [
+        {
+          "id": "EXT-BERUFSBILDNER-AUSBILDUNG",
+          "text": "Abgeschlossene externe Berufsbildner-Ausbildung"
+        }
+      ]
+    },
+    {
+      "id": "SPEZ-FACHKUNDIGE-LEITER-ELEKTRO",
+      "name": "fachkundige/r Leiter/in Elektro",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "Externe Elektro-Grundbildung + externe NIV-Weiterbildung",
+      "before": "Keine NIV-Fachkunde",
+      "after": "Fachexperte Elektro – fachkundige/r Leiter/in Elektro",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [],
+      "externalRequirements": [
+        {
+          "id": "EXT-ELEKTRO-GRUNDBILDUNG",
+          "text": "Abgeschlossene Grundbildung Elektroinstallateur/in EFZ oder Montage-Elektriker/in EFZ (vor Eintritt bei Multinet absolviert; wird nicht als internes Modul geführt)"
+        },
+        {
+          "id": "EXT-NIV-WEITERBILDUNG",
+          "text": "Abgeschlossene externe Weiterbildung zum/zur fachkundigen Leiter/in nach NIV (baut auf der Elektro-Grundbildung auf)"
+        }
+      ]
+    },
+    {
+      "id": "SPEZ-DELEGIERTE-ARBEITSSICHERHEIT",
+      "name": "Delegierte/r Arbeitssicherheit",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "Externe SiBe/KOPAS-Ausbildung + SGA-015 (Arbeiten in der SGA)",
+      "before": "Keine SGA-Koordinationsfunktion",
+      "after": "Fachexperte SGA-Koordination – befähigt für die Rolle Delegierte/r Arbeitssicherheit (West/South/Deutschschweiz)",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "SGA-015"
+      ],
+      "externalRequirements": [
+        {
+          "id": "EXT-SIBE-KOPAS",
+          "text": "Abgeschlossene externe Ausbildung zum/zur SiBe bzw. KOPAS"
+        }
+      ]
+    },
+    {
+      "id": "SPEZ-ASA-SPEZIALIST",
+      "name": "ASA-Spezialist/in (Fachexperte SGA)",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "Delegierte/r-Arbeitssicherheit-Voraussetzungen + externe ASA-Weiterbildung (2,5 Jahre)",
+      "before": "Kein ASA-Spezialist-Status",
+      "after": "Fachexperte SGA – ASA-Spezialist/in, befähigt für die Rolle Beauftragte/r Sicherheit",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "SGA-015"
+      ],
+      "externalRequirements": [
+        {
+          "id": "EXT-SIBE-KOPAS",
+          "text": "Abgeschlossene externe Ausbildung zum/zur SiBe bzw. KOPAS"
+        },
+        {
+          "id": "EXT-ASA-WEITERBILDUNG",
+          "text": "Abgeschlossene externe ASA-Weiterbildung (2,5 Jahre), baut auf SiBe/KOPAS auf"
+        }
+      ]
+    },
+    {
+      "id": "SPEZ-GEFAHRSTOFFBEAUFTRAGTE",
+      "name": "Gefahrstoffbeauftragte/r",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "SGA-016 (Gefahrstoffbeauftragte/r Grundlagen)",
+      "before": "Keine Gefahrstoff-Zuständigkeit",
+      "after": "Fachexperte Gefahrstoffe – befähigt für die Rolle Gefahrstoffbeauftragte/r",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "SGA-016"
+      ]
+    },
+    {
+      "id": "SPEZ-PRAXISBILDNER",
+      "name": "Praxisbildner/in",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "PRAX-001 (Praxisbildner/in Grundmodul, intern)",
+      "before": "Keine Praxisausbildungs-Berechtigung",
+      "after": "Praxisbildner/in – bildet vor Ort praktisch aus",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "PRAX-001"
+      ]
+    },
+    {
+      "id": "SPEZ-LEITERINSPEKTION",
+      "name": "Fachperson Leiterinspektion",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "INSP-001 (Grundmodul)",
+      "before": "Keine Leiterinspektions-Berechtigung",
+      "after": "Fachperson Leiterinspektion",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "INSP-001"
+      ]
+    },
+    {
+      "id": "SPEZ-PRUEFUNG-ELEKTROGERAETE",
+      "name": "Fachperson periodische Prüfung Elektrogeräte",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "INSP-002 (Grundmodul)",
+      "before": "Keine Prüfberechtigung",
+      "after": "Fachperson periodische Prüfung Elektrogeräte",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [
+        "INSP-002"
+      ]
+    },
+    {
+      "id": "SPEZ-MITGLIED-SGA-GRUPPE",
+      "name": "Mitglied SGA-Gruppe",
+      "trees": [
+        "NETZBAU",
+        "LWL",
+        "CU",
+        "INHOUSE",
+        "PLANER",
+        "VERTRAG",
+        "AKQUISE"
+      ],
+      "requires": "Wahl durch bestehende Mitglieder bei Vakanz",
+      "before": "Kein Mitglied",
+      "after": "Mitglied der SGA-Gruppe (unabhängiges Gremium)",
+      "rule": "Badge zeigt die fachliche Qualifikation/Berechtigung; die tatsächliche Rollenzuweisung (falls zutreffend) bleibt ein separater organisatorischer Akt.",
+      "requiresIds": [],
+      "externalRequirements": [
+        {
+          "id": "EXT-SGA-GRUPPE-GEWAEHLT",
+          "text": "Gewählt als Mitglied der SGA-Gruppe (Vorschlag bei Vakanz, Wahl durch bestehende Mitglieder) – keine Ausbildungsvoraussetzung, rein darstellerischer Schalter für die Demo"
+        }
+      ]
     }
   ],
   "optional": [
@@ -4755,7 +7764,8 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "L0-Grundlage"
+      "note": "L0-Grundlage",
+      "completedDate": "2023-03-01"
     },
     {
       "profileId": "DEMO-001",
@@ -4765,7 +7775,8 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "L0-Grundlage"
+      "note": "L0-Grundlage",
+      "completedDate": "2023-03-01"
     },
     {
       "profileId": "DEMO-001",
@@ -4775,7 +7786,8 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "Fachprofil"
+      "note": "Fachprofil",
+      "completedDate": "2023-04-15"
     },
     {
       "profileId": "DEMO-001",
@@ -4785,7 +7797,8 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "Fachprofil"
+      "note": "Fachprofil",
+      "completedDate": "2023-05-20"
     },
     {
       "profileId": "DEMO-001",
@@ -4795,7 +7808,8 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "SGA-Profil"
+      "note": "SGA-Profil",
+      "completedDate": "2023-06-10"
     },
     {
       "profileId": "DEMO-001",
@@ -4805,7 +7819,8 @@
       "elementType": "Kompetenz",
       "status": "Vorhanden",
       "confirmation": "Bestätigt",
-      "note": "Mentoring"
+      "note": "Mentoring",
+      "completedDate": "2023-09-01"
     },
     {
       "profileId": "DEMO-001",
@@ -4815,7 +7830,8 @@
       "elementType": "Kompetenz",
       "status": "Vorhanden",
       "confirmation": "Selbsteinschätzung",
-      "note": "Gesprächsgrundlage"
+      "note": "Gesprächsgrundlage",
+      "completedDate": "2023-02-01"
     }
   ],
   "themes": [
