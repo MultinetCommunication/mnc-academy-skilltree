@@ -137,7 +137,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "LWL",
@@ -203,7 +203,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "CU",
@@ -269,7 +269,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "INHOUSE",
@@ -335,7 +335,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "PROJEKT",
@@ -401,7 +401,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "PLANER",
@@ -467,7 +467,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "VERTRAG",
@@ -533,7 +533,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "AKQUISE",
@@ -599,7 +599,7 @@
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
       "deliveryUnconfirmed": true,
-      "validityMonths": 0
+      "validityMonths": 24
     },
     {
       "tree": "NETZBAU",
