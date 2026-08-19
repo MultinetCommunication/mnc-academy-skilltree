@@ -177,7 +177,12 @@ export default function Home() {
                 );
               })}
             </div>
-            <button onClick={() => setCompleted(new Set())}>
+            <button
+              onClick={() => {
+                setCompleted(new Set());
+                setCompletedDates({});
+              }}
+            >
               Profil leeren
             </button>
           </aside>
