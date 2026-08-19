@@ -11,17 +11,16 @@ export default function Home() {
   const demo = data.demo
     .filter((x) => x.elementType === "Ausbildung")
     .map((x) => x.itemId);
-  const demoCompletedDates = Object.fromEntries(
-    data.demo
-      .filter((x) => x.elementType === "Ausbildung" && x.completedDate)
-      .map((x) => [x.itemId, x.completedDate as string]),
-  );
   const todayIso = new Date().toISOString().slice(0, 10);
   const [tree, setTree] = useState("NETZBAU"),
     [mode, setMode] = useState<"new" | "change">("new"),
     [completed, setCompleted] = useState(new Set(demo)),
+    // Teilnahmedaten werden bewusst NICHT aus dem Demo-Profil vorbelegt – ein
+    // Ablaufdatum darf sich nur aus einem tatsächlichen Anklick-Vorgang ergeben,
+    // sonst hängt ein fixes Datum an einem Häkchen, das jederzeit gesetzt/entfernt
+    // werden kann (siehe Praxis-Rückmeldung).
     [completedDates, setCompletedDates] =
-      useState<Record<string, string>>(demoCompletedDates),
+      useState<Record<string, string>>({}),
     [today, setToday] = useState(todayIso),
     [selected, setSelected] = useState<string | null>(null);
 
