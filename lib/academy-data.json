@@ -7722,8 +7722,7 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "L0-Grundlage",
-      "completedDate": "2023-03-01"
+      "note": "L0-Grundlage"
     },
     {
       "profileId": "DEMO-001",
@@ -7733,8 +7732,7 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "L0-Grundlage",
-      "completedDate": "2023-03-01"
+      "note": "L0-Grundlage"
     },
     {
       "profileId": "DEMO-001",
@@ -7744,8 +7742,7 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "Fachprofil",
-      "completedDate": "2023-04-15"
+      "note": "Fachprofil"
     },
     {
       "profileId": "DEMO-001",
@@ -7755,8 +7752,7 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "Fachprofil",
-      "completedDate": "2023-05-20"
+      "note": "Fachprofil"
     },
     {
       "profileId": "DEMO-001",
@@ -7766,8 +7762,7 @@
       "elementType": "Ausbildung",
       "status": "Abgeschlossen",
       "confirmation": "Bestätigt",
-      "note": "SGA-Profil",
-      "completedDate": "2023-06-10"
+      "note": "SGA-Profil"
     },
     {
       "profileId": "DEMO-001",
@@ -7777,8 +7772,7 @@
       "elementType": "Kompetenz",
       "status": "Vorhanden",
       "confirmation": "Bestätigt",
-      "note": "Mentoring",
-      "completedDate": "2023-09-01"
+      "note": "Mentoring"
     },
     {
       "profileId": "DEMO-001",
@@ -7788,8 +7782,7 @@
       "elementType": "Kompetenz",
       "status": "Vorhanden",
       "confirmation": "Selbsteinschätzung",
-      "note": "Gesprächsgrundlage",
-      "completedDate": "2023-02-01"
+      "note": "Gesprächsgrundlage"
     }
   ],
   "themes": [
