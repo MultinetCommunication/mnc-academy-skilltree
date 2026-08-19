@@ -5091,7 +5091,17 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5124,7 +5134,17 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-016",
+        "MOD-017",
+        "MOD-018",
+        "MOD-019",
+        "MOD-020",
+        "MOD-021",
+        "SGA-010"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5157,7 +5177,20 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-034",
+        "MOD-035",
+        "MOD-036",
+        "MOD-037",
+        "SGA-010"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5190,7 +5223,20 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-034",
+        "MOD-035",
+        "MOD-036",
+        "MOD-037",
+        "SGA-010"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5223,7 +5269,11 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "SGA-010"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5256,7 +5306,11 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "SGA-010"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5289,7 +5343,20 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-005",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-038",
+        "MOD-039",
+        "MOD-040",
+        "SGA-011"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5322,7 +5389,20 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-005",
+        "MOD-029",
+        "MOD-030",
+        "MOD-031",
+        "MOD-032",
+        "MOD-033",
+        "MOD-038",
+        "MOD-039",
+        "MOD-040",
+        "SGA-011"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5355,7 +5435,20 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-045",
+        "MOD-046",
+        "MOD-047",
+        "MOD-048",
+        "MOD-049",
+        "MOD-050",
+        "MOD-051",
+        "MOD-053",
+        "MOD-054",
+        "NEU-CLIMA-ENG",
+        "NEU-CONNECTNOW",
+        "SGA-012"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5388,7 +5481,20 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-045",
+        "MOD-046",
+        "MOD-047",
+        "MOD-048",
+        "MOD-049",
+        "MOD-050",
+        "MOD-051",
+        "MOD-053",
+        "MOD-054",
+        "NEU-CLIMA-ENG",
+        "NEU-CONNECTNOW",
+        "SGA-012"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5421,7 +5527,17 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-011",
+        "MOD-047",
+        "MOD-054",
+        "MOD-055",
+        "NEU-AKQ-GRUND",
+        "NEU-ALFRESCO",
+        "NEU-PROJEKTVORB",
+        "NEU-VERTRAG-PROZESS",
+        "SGA-012"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5454,7 +5570,17 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-011",
+        "MOD-047",
+        "MOD-054",
+        "MOD-055",
+        "NEU-AKQ-GRUND",
+        "NEU-ALFRESCO",
+        "NEU-PROJEKTVORB",
+        "NEU-VERTRAG-PROZESS",
+        "SGA-012"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5487,7 +5613,19 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-005",
+        "MOD-011",
+        "MOD-047",
+        "NEU-AKQ-GRUND",
+        "NEU-ALFRESCO",
+        "NEU-CLIMA-ACQ",
+        "NEU-SKYNET-AKQ",
+        "NEU-TERMINIERUNG",
+        "SGA-011"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
@@ -5520,7 +5658,19 @@
         "audience": "Mitarbeitende auf dem Führungspfad",
         "status": "Detailmodule offen"
       },
-      "prerequisiteIds": [],
+      "prerequisiteIds": [
+        "MOD-002",
+        "MOD-004",
+        "MOD-005",
+        "MOD-011",
+        "MOD-047",
+        "NEU-AKQ-GRUND",
+        "NEU-ALFRESCO",
+        "NEU-CLIMA-ACQ",
+        "NEU-SKYNET-AKQ",
+        "NEU-TERMINIERUNG",
+        "SGA-011"
+      ],
       "einmalig": false,
       "deliveryFirst": "Präsenz",
       "deliveryRepeat": "E-Learning",
