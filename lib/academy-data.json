@@ -4722,7 +4722,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -4738,7 +4738,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -4765,7 +4765,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -4781,7 +4781,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -4811,7 +4811,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -4827,7 +4827,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -4848,7 +4848,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -4864,7 +4864,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -4894,7 +4894,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -4910,7 +4910,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -4933,7 +4933,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -4949,7 +4949,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -4979,7 +4979,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -4995,7 +4995,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -5022,7 +5022,7 @@
     },
     {
       "id": "FUE-001",
-      "name": "Ausbildung Vorgesetzte/r",
+      "name": "Führungsschulung",
       "strand": "Führungspfad",
       "level": "L2",
       "deadline": "Bedarf",
@@ -5038,7 +5038,7 @@
       "elementType": "Ausbildung",
       "details": {
         "id": "FUE-001",
-        "name": "Ausbildung Vorgesetzte/r",
+        "name": "Führungsschulung",
         "duration": 0,
         "category": "Führung & Organisation",
         "areas": "Alle Fachbereiche",
@@ -6908,27 +6908,6 @@
       ]
     },
     {
-      "id": "ROLE-VORGESETZTE",
-      "name": "Vorgesetzte/r",
-      "trees": [
-        "NETZBAU",
-        "LWL",
-        "CU",
-        "INHOUSE",
-        "PROJEKT",
-        "PLANER",
-        "VERTRAG",
-        "AKQUISE"
-      ],
-      "requires": "FUE-001",
-      "requiresIds": [
-        "FUE-001"
-      ],
-      "before": "Führungsrolle noch nicht bestätigt",
-      "after": "Rolle Vorgesetzte/r",
-      "rule": "Unabhängig von einer fachlichen L2- oder L3-Qualifikation"
-    },
-    {
       "id": "ROLE-F1-NETZBAU",
       "name": "F1 – Teamleiter/in (Realisation)",
       "trees": [
@@ -7088,27 +7067,6 @@
         "MOD-023",
         "MOD-024",
         "MOD-025",
-        "FUE-001",
-        "SGA-014"
-      ]
-    },
-    {
-      "id": "ROLE-F6",
-      "name": "F6 – Direktor/in",
-      "trees": [
-        "NETZBAU",
-        "LWL",
-        "CU",
-        "INHOUSE",
-        "PLANER",
-        "VERTRAG",
-        "AKQUISE"
-      ],
-      "requires": "FUE-001 + SGA-014",
-      "before": "Keine Geschäftsleitungsfunktion",
-      "after": "Qualifiziert für Direktor/in (Core Business bzw. Region/Tochterfirma)",
-      "rule": "Erfüllung der Kriterien qualifiziert für die Rolle; die tatsächliche Zuweisung bleibt ein separater Führungsentscheid.",
-      "requiresIds": [
         "FUE-001",
         "SGA-014"
       ]
