@@ -122,6 +122,7 @@ export function RingMap({
         <svg
           viewBox={`0 0 ${viewW} ${viewH}`}
           className="ring-svg"
+          style={{ width: "100%", maxWidth: 900, height: "auto", display: "block", margin: "0 auto" }}
           role="img"
           aria-label="Entwicklungsbaum als Ringdarstellung: Basis, Vertieft, Experte um einen zentralen Einstiegspunkt"
         >
