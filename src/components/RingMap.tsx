@@ -160,6 +160,7 @@ export function RingMap({
     requirements(item).forEach((reqId) => {
       const from = placed[reqId];
       if (!from) return;
+      if (from.cluster !== to.cluster) return; // cross-cluster links are represented by the single hub ray instead
       lines.push({
         x1: from.x,
         y1: from.y,
@@ -172,8 +173,8 @@ export function RingMap({
   });
 
   const hubRays = [
-    { to: leadershipHub, active: leadership.some((x) => completed.has(x.id)), show: leadership.length > 0 },
-    { to: specialHub, active: special.some((x) => completed.has(x.id)), show: special.length > 0 },
+    { to: leadershipHub, active: leadership.some((x) => itemState(x, completed) !== "locked"), show: leadership.length > 0 },
+    { to: specialHub, active: special.some((x) => itemState(x, completed) !== "locked"), show: special.length > 0 },
   ];
 
   return (
@@ -181,8 +182,10 @@ export function RingMap({
       <section className="zone ring-zone">
         <svg
           viewBox={`${minX} ${minY} ${viewW} ${viewH}`}
+          width={viewW}
+          height={viewH}
           className="ring-svg"
-          style={{ width: "100%", maxWidth: 1100, height: "auto", display: "block", margin: "0 auto" }}
+          style={{ display: "block" }}
           role="img"
           aria-label="Entwicklungsbaum als Ringdarstellung mit drei Ringsystemen: Fachpfad im Zentrum, Führung und SGA/Spezialrollen als Satelliten"
         >
