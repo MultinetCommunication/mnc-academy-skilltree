@@ -5,6 +5,7 @@ import { data, AXES, type Axis } from "./lib/types";
 import { deadline, uniqueItems, unlockReleased, expiryState } from "./lib/logic";
 import { Radar } from "./components/Radar";
 import { Map } from "./components/Map";
+import { RingMap } from "./components/RingMap";
 import { DetailPanel } from "./components/DetailPanel";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
     [completedDates, setCompletedDates] =
       useState<Record<string, string>>({}),
     [today, setToday] = useState(todayIso),
+    [viewMode, setViewMode] = useState<"list" | "ring">("list"),
     [selected, setSelected] = useState<string | null>(null);
 
   const todayDate = useMemo(() => new Date(today), [today]);
@@ -259,22 +261,49 @@ export default function Home() {
         <div className="legend">
           <span className="red">abgeschlossen</span>
           <span className="white">jetzt möglich</span>
-          <span className="teal">empfohlener Schritt</span>
+          {viewMode === "list" && <span className="teal">empfohlener Schritt</span>}
           <span className="grey">später möglich</span>
           <span className="solid">obligatorisch</span>
           <span className="dashed">fakultativ / bedingt</span>
+          <div className="view-toggle">
+            <button
+              className={viewMode === "list" ? "active" : ""}
+              onClick={() => setViewMode("list")}
+            >
+              Liste
+            </button>
+            <button
+              className={viewMode === "ring" ? "active" : ""}
+              onClick={() => setViewMode("ring")}
+            >
+              Ring
+            </button>
+          </div>
         </div>
         <div className="map-scroll">
-          <Map
-            items={items}
-            unlocks={permissionUnlocks}
-            completed={effective}
-            completedDates={completedDates}
-            today={todayDate}
-            selected={selected}
-            onSelect={setSelected}
-            internal={mode === "change"}
-          />
+          {viewMode === "list" ? (
+            <Map
+              items={items}
+              unlocks={permissionUnlocks}
+              completed={effective}
+              completedDates={completedDates}
+              today={todayDate}
+              selected={selected}
+              onSelect={setSelected}
+              internal={mode === "change"}
+            />
+          ) : (
+            <RingMap
+              items={items}
+              unlocks={permissionUnlocks}
+              completed={effective}
+              completedDates={completedDates}
+              today={todayDate}
+              selected={selected}
+              onSelect={setSelected}
+              internal={mode === "change"}
+            />
+          )}
         </div>
       </section>
       <DetailPanel
