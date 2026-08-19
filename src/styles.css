@@ -267,8 +267,8 @@ a {
   border: 1px solid;
 }
 .legend .red {
-  border-color: var(--red);
-  background: var(--red);
+  border-color: var(--success);
+  background: var(--success);
   color: #fff;
 }
 .legend .white {
@@ -284,6 +284,113 @@ a {
 }
 .legend .dashed {
   border-style: dashed;
+}
+.view-toggle {
+  margin-left: auto;
+  display: flex;
+  border: 1px solid #333;
+}
+.view-toggle button {
+  background: transparent;
+  border: 0;
+  color: #8d999f;
+  padding: 0.4rem 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.view-toggle button + button {
+  border-left: 1px solid #333;
+}
+.view-toggle button.active {
+  background: var(--teal);
+  color: #050505;
+}
+.ring-view {
+  min-width: unset;
+  min-height: unset;
+  display: block;
+  padding: 2rem 1rem;
+}
+.ring-zone {
+  display: block;
+  width: 100%;
+}
+.ring-svg {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+.ring-guide {
+  fill: none;
+  stroke: #1a1a1a;
+  stroke-width: 1;
+}
+.ring-label {
+  fill: #6b6b6b;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+.ring-line {
+  stroke: #2a2a2a;
+  stroke-width: 1.4;
+}
+.ring-line.active {
+  stroke: var(--teal);
+  opacity: 0.9;
+}
+.ring-node {
+  cursor: pointer;
+}
+.ring-node circle {
+  fill: #111;
+  stroke: #2e2e2e;
+  stroke-width: 2;
+  transition: fill 0.15s, stroke 0.15s;
+}
+.ring-node.available circle {
+  stroke: #9aa0a3;
+}
+.ring-node.completed circle {
+  fill: var(--teal);
+  stroke: var(--teal);
+}
+.ring-node.expiring circle {
+  stroke: var(--amber);
+  fill: var(--amber);
+}
+.ring-node.expired circle {
+  stroke: var(--alert);
+  fill: var(--alert);
+}
+.ring-node.optional circle {
+  stroke-dasharray: 3 2;
+}
+.ring-node.selected circle {
+  stroke-width: 3;
+  stroke: #fff;
+}
+.ring-node-label {
+  fill: #565656;
+  font-size: 8.5px;
+}
+.ring-node.available .ring-node-label {
+  fill: #c8c8c8;
+}
+.ring-node.completed .ring-node-label,
+.ring-node.expiring .ring-node-label,
+.ring-node.expired .ring-node-label {
+  fill: #fff;
+}
+.ring-check-icon {
+  fill: #050505;
+  font-size: 11px;
+}
+.ring-warn-icon {
+  fill: #050505;
+  font-size: 12px;
 }
 .map-scroll {
   width: min(1400px, 100%);
