@@ -5,6 +5,7 @@
   --grey: #5a5a5a;
   --amber: #f2a900;
   --alert: #ff3b3b;
+  --success: #1c8a4b;
 }
 * {
   box-sizing: border-box;
@@ -393,8 +394,8 @@ a {
   font-style: normal;
 }
 .node.completed {
-  border-color: var(--red);
-  background: var(--red);
+  border-color: var(--success);
+  background: var(--success);
 }
 .node.completed small,
 .node.completed span {
