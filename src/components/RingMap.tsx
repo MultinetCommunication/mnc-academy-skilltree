@@ -11,37 +11,43 @@ import {
 /**
  * Alternative "development tree" visualisation for the ring toggle.
  *
- * Only the core fachlich progression (L0 entry → L1 Basis → L2 Vertieft →
- * L3 Experte) is drawn as concentric rings — that's the part with a real
- * level hierarchy worth visualising spatially. "Parallel zum Fachweg"
- * (special/organisatorische Module) and "Führung" (leadership path) are
- * genuinely separate, non-leveled tracks, so they keep the same flat list
- * presentation the tile view already uses for them — reusing that markup
- * verbatim rather than forcing them into a ring that wouldn't mean anything
- * for a track without levels.
+ * Three ring systems around one shared center:
+ * - Main hub: the fachlich progression (L0 entry → L1 Basis → L2 Vertieft →
+ *   L3 Experte) as concentric rings — the only track with a real level
+ *   hierarchy worth spacing out radially.
+ * - Two satellite hubs, reached by a ray from the main center: "Führung"
+ *   (leadership path) and "SGA / Spezialrollen" (special/organisatorische
+ *   Module). Neither has L1–L3 levels, so each is a single cascaded ring
+ *   around its own hub point rather than a multi-level structure.
  *
- * Ring radius grows with node count (MIN_ARC px of arc length reserved per
- * node) instead of shrinking nodes to fit — validated against a 9-node
- * stress case before this was wired in.
+ * Ring/satellite radius grows with node count (MIN_ARC px of arc length
+ * reserved per node) instead of shrinking nodes to fit — validated against
+ * a 9-node stress case before this was wired in.
  */
 
-const MIN_ARC = 48; // px of circumference reserved per node, tuned in the mockup
+const MIN_ARC = 48;
+const SAT_MIN_ARC = 36;
 const BASE_RADIUS: Record<number, number> = { 0: 50, 1: 150, 2: 250, 3: 340 };
 const RING_LABEL: Record<number, string> = {
   1: "BASIS",
   2: "VERTIEFT",
   3: "EXPERTE",
 };
+const SAT_BASE_RADIUS = 70;
+const HUB_GAP = 160; // clearance beyond the outer main ring before a satellite hub starts
+const LEADERSHIP_ANGLE = -38;
+const SPECIAL_ANGLE = 38;
 
-function radiusFor(levelNum: number, count: number) {
-  const base = BASE_RADIUS[levelNum] ?? 340;
-  const needed = (count * MIN_ARC) / (2 * Math.PI);
+function radiusFor(base: number, count: number, minArc: number) {
+  const needed = (count * minArc) / (2 * Math.PI);
   return Math.max(base, needed);
 }
 
 function truncate(name: string, max = 20) {
   return name.length > max ? name.slice(0, max - 1) + "…" : name;
 }
+
+type Placed = { item: Assignment; x: number; y: number; cluster: "core" | "leadership" | "special"; isHubCenter?: boolean };
 
 export function RingMap({
   items,
@@ -72,19 +78,28 @@ export function RingMap({
     byLevel[l].push(x);
   });
 
-  const cx = 340;
+  const mainCx = 400;
+  const mainCy = 400;
   const radius: Record<number, number> = {
-    0: radiusFor(0, byLevel[0].length),
-    1: radiusFor(1, byLevel[1].length),
-    2: radiusFor(2, byLevel[2].length),
-    3: radiusFor(3, byLevel[3].length),
+    0: radiusFor(BASE_RADIUS[0], byLevel[0].length, MIN_ARC),
+    1: radiusFor(BASE_RADIUS[1], byLevel[1].length, MIN_ARC),
+    2: radiusFor(BASE_RADIUS[2], byLevel[2].length, MIN_ARC),
+    3: radiusFor(BASE_RADIUS[3], byLevel[3].length, MIN_ARC),
   };
   const maxR = Math.max(radius[0], radius[1], radius[2], radius[3], 60);
-  const cy = maxR + 40;
-  const viewH = maxR * 2 + 80;
-  const viewW = Math.max(680, maxR * 2 + 80);
 
-  type Placed = { item: Assignment; x: number; y: number; ring: number };
+  const hubDist = maxR + HUB_GAP;
+  const leadershipHub = {
+    x: mainCx + hubDist * Math.cos((LEADERSHIP_ANGLE * Math.PI) / 180),
+    y: mainCy + hubDist * Math.sin((LEADERSHIP_ANGLE * Math.PI) / 180),
+  };
+  const specialHub = {
+    x: mainCx + hubDist * Math.cos((SPECIAL_ANGLE * Math.PI) / 180),
+    y: mainCy + hubDist * Math.sin((SPECIAL_ANGLE * Math.PI) / 180),
+  };
+  const leadershipR = radiusFor(SAT_BASE_RADIUS, leadership.length, SAT_MIN_ARC);
+  const specialR = radiusFor(SAT_BASE_RADIUS, special.length, SAT_MIN_ARC);
+
   const placed: Record<string, Placed> = {};
   ([0, 1, 2, 3] as const).forEach((lvl) => {
     const group = byLevel[lvl];
@@ -92,14 +107,54 @@ export function RingMap({
     group.forEach((item, i) => {
       const angle = -90 + (n > 0 ? (360 / n) * i : 0);
       const rad = (angle * Math.PI) / 180;
-      const x = cx + radius[lvl] * Math.cos(rad);
-      const y = cy + radius[lvl] * Math.sin(rad);
-      placed[item.id] = { item, x, y, ring: lvl };
+      placed[item.id] = {
+        item,
+        x: mainCx + radius[lvl] * Math.cos(rad),
+        y: mainCy + radius[lvl] * Math.sin(rad),
+        cluster: "core",
+      };
     });
   });
+  function placeSatellite(group: Assignment[], hub: { x: number; y: number }, r: number, cluster: "leadership" | "special") {
+    const n = group.length;
+    group.forEach((item, i) => {
+      const angle = -90 + (n > 0 ? (360 / n) * i : 0);
+      const rad = (angle * Math.PI) / 180;
+      placed[item.id] = {
+        item,
+        x: hub.x + r * Math.cos(rad),
+        y: hub.y + r * Math.sin(rad),
+        cluster,
+      };
+    });
+  }
+  placeSatellite(leadership, leadershipHub, leadershipR, "leadership");
+  placeSatellite(special, specialHub, specialR, "special");
+
+  const allNodes = [...core, ...leadership, ...special];
+
+  // Bounding box across everything actually placed, so the viewBox always
+  // fits regardless of how many satellite items a given tree has.
+  const xs = allNodes.map((x) => placed[x.id]?.x).filter((v): v is number => v !== undefined);
+  const ys = allNodes.map((x) => placed[x.id]?.y).filter((v): v is number => v !== undefined);
+  const pad = 60;
+  const satXs = [
+    ...(leadership.length > 0 ? [leadershipHub.x - leadershipR, leadershipHub.x + leadershipR] : []),
+    ...(special.length > 0 ? [specialHub.x - specialR, specialHub.x + specialR] : []),
+  ];
+  const satYs = [
+    ...(leadership.length > 0 ? [leadershipHub.y - leadershipR, leadershipHub.y + leadershipR] : []),
+    ...(special.length > 0 ? [specialHub.y - specialR, specialHub.y + specialR] : []),
+  ];
+  const minX = Math.min(mainCx - maxR, ...xs, ...satXs) - pad;
+  const maxX = Math.max(mainCx + maxR, ...xs, ...satXs) + pad;
+  const minY = Math.min(mainCy - maxR, ...ys, ...satYs) - pad - 20;
+  const maxY = Math.max(mainCy + maxR, ...ys, ...satYs) + pad;
+  const viewW = maxX - minX;
+  const viewH = maxY - minY;
 
   const lines: { x1: number; y1: number; x2: number; y2: number; active: boolean; id: string }[] = [];
-  core.forEach((item) => {
+  allNodes.forEach((item) => {
     const to = placed[item.id];
     if (!to) return;
     requirements(item).forEach((reqId) => {
@@ -116,15 +171,20 @@ export function RingMap({
     });
   });
 
+  const hubRays = [
+    { to: leadershipHub, active: leadership.some((x) => completed.has(x.id)), show: leadership.length > 0 },
+    { to: specialHub, active: special.some((x) => completed.has(x.id)), show: special.length > 0 },
+  ];
+
   return (
     <div className="skill-map ring-view">
       <section className="zone ring-zone">
         <svg
-          viewBox={`0 0 ${viewW} ${viewH}`}
+          viewBox={`${minX} ${minY} ${viewW} ${viewH}`}
           className="ring-svg"
-          style={{ width: "100%", maxWidth: 900, height: "auto", display: "block", margin: "0 auto" }}
+          style={{ width: "100%", maxWidth: 1100, height: "auto", display: "block", margin: "0 auto" }}
           role="img"
-          aria-label="Entwicklungsbaum als Ringdarstellung: Basis, Vertieft, Experte um einen zentralen Einstiegspunkt"
+          aria-label="Entwicklungsbaum als Ringdarstellung mit drei Ringsystemen: Fachpfad im Zentrum, Führung und SGA/Spezialrollen als Satelliten"
         >
           <defs>
             <filter id="ring-glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -135,16 +195,47 @@ export function RingMap({
               </feMerge>
             </filter>
           </defs>
+
+          {hubRays
+            .filter((r) => r.show)
+            .map((r, i) => (
+              <line
+                key={`ray-${i}`}
+                x1={mainCx}
+                y1={mainCy}
+                x2={r.to.x}
+                y2={r.to.y}
+                className={`ring-ray ${r.active ? "active" : ""}`}
+              />
+            ))}
+
           {([1, 2, 3] as const)
             .filter((lvl) => byLevel[lvl].length > 0)
             .map((lvl) => (
               <g key={lvl}>
-                <circle cx={cx} cy={cy} r={radius[lvl]} className="ring-guide" />
-                <text x={cx} y={cy - radius[lvl] - 8} textAnchor="middle" className="ring-label">
+                <circle cx={mainCx} cy={mainCy} r={radius[lvl]} className="ring-guide" />
+                <text x={mainCx} y={mainCy - radius[lvl] - 8} textAnchor="middle" className="ring-label">
                   {RING_LABEL[lvl]}
                 </text>
               </g>
             ))}
+          {leadership.length > 0 && (
+            <>
+              <circle cx={leadershipHub.x} cy={leadershipHub.y} r={leadershipR} className="ring-guide sat" />
+              <text x={leadershipHub.x} y={leadershipHub.y - leadershipR - 8} textAnchor="middle" className="ring-label">
+                FÜHRUNG
+              </text>
+            </>
+          )}
+          {special.length > 0 && (
+            <>
+              <circle cx={specialHub.x} cy={specialHub.y} r={specialR} className="ring-guide sat" />
+              <text x={specialHub.x} y={specialHub.y - specialR - 8} textAnchor="middle" className="ring-label">
+                SGA / SPEZIALROLLEN
+              </text>
+            </>
+          )}
+
           {lines.map((l) => (
             <line
               key={l.id}
@@ -156,14 +247,14 @@ export function RingMap({
               filter={l.active ? "url(#ring-glow)" : undefined}
             />
           ))}
-          {core.map((x) => {
+          {allNodes.map((x) => {
             const p = placed[x.id];
             if (!p) return null;
             const s = itemState(x, completed);
             const optional = /Fakultativ|Wahl|Bedingte/.test(x.requirement);
             const expiry = expiryState(x, completedDates[x.id], today);
             const done = s === "completed";
-            const isCenter = p.ring === 0;
+            const isCenter = p.cluster === "core" && level(x.level) === 0;
             return (
               <g
                 key={x.id}
@@ -198,70 +289,6 @@ export function RingMap({
         </svg>
       </section>
 
-      {special.length > 0 && (
-        <section className="zone special">
-          <div className="nodes">
-            {special.map((x) => {
-              const s = itemState(x, completed),
-                optional = /Fakultativ|Wahl|Bedingte/.test(x.requirement),
-                expiry = expiryState(x, completedDates[x.id], today);
-              return (
-                <button
-                  key={x.id}
-                  className={`node ${s} ${optional ? "optional" : "mandatory"} ${selected === x.id ? "selected" : ""} ${expiry === "expiring" ? "expiring" : ""} ${expiry === "expired" ? "expired" : ""}`}
-                  onClick={() => onSelect(x.id)}
-                >
-                  <small>{x.id}</small>
-                  <strong>{x.name}</strong>
-                  <span>
-                    {expiry === "expired"
-                      ? "⚠ abgelaufen"
-                      : expiry === "expiring"
-                        ? "⚠ läuft bald ab"
-                        : s === "completed"
-                          ? "✓ abgeschlossen"
-                          : s === "available"
-                            ? "jetzt möglich"
-                            : "später möglich"}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </section>
-      )}
-      {leadership.length > 0 && (
-        <section className="zone leadership">
-          <div className="nodes">
-            {leadership.map((x) => {
-              const s = itemState(x, completed),
-                optional = /Fakultativ|Wahl|Bedingte/.test(x.requirement),
-                expiry = expiryState(x, completedDates[x.id], today);
-              return (
-                <button
-                  key={x.id}
-                  className={`node ${s} ${optional ? "optional" : "mandatory"} ${selected === x.id ? "selected" : ""} ${expiry === "expiring" ? "expiring" : ""} ${expiry === "expired" ? "expired" : ""}`}
-                  onClick={() => onSelect(x.id)}
-                >
-                  <small>{x.id}</small>
-                  <strong>{x.name}</strong>
-                  <span>
-                    {expiry === "expired"
-                      ? "⚠ abgelaufen"
-                      : expiry === "expiring"
-                        ? "⚠ läuft bald ab"
-                        : s === "completed"
-                          ? "✓ abgeschlossen"
-                          : s === "available"
-                            ? "jetzt möglich"
-                            : "später möglich"}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </section>
-      )}
       {unlocks.length > 0 && (
         <section className="zone permissions">
           <header>
@@ -296,3 +323,4 @@ export function RingMap({
     </div>
   );
 }
+
